@@ -25,17 +25,49 @@ My research interest includes neural machine translation and computer vision. I 
 
 
 # 🔥 News
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2025.07*: &nbsp; I'm honored to be invited to be a reviewer of **AAAI 2026**!
 
-# 📝 Publications 
+
+- *2025.06*: &nbsp;🏆 I'm so happy to be 1/30 of **<span style="color: red;">SenseTime Scholarship 2025</span>!** *This is the greatest praise I have received so far.* 
+
+- *2025.06*: &nbsp; We pre-released [**Diffusion Dataset Condensation**](https://arxiv.org/abs/2507.05914) on arXiv, **accelerating the pre-training of diffusion models by 100x**!!!. The entire project used **hundreds of H100/A100**!!
+
+
+
+- *2025.03*: &nbsp; We released [**CoT Image**](https://arxiv.org/abs/2501.13926), The first to **introduce CoT-style strategies into image generation**, it has attracted widespread attention in the community and received over **700+ stars**!!
+
+
+- *2024.12*: &nbsp; Our paper [**Wavelet-Assisted Multi-Frequency Attention Network for Pansharpening**](https://ojs.aaai.org/index.php/AAAI/article/view/32381) has been accepted by **AAAI 2025** and selected for **<span style="color: red;">Oral Presentation</span>**. See you in Philadelphia!!!!
+
+
+
+
+
+- *2024.10*: &nbsp;🏆 I am happy to be awarded the **National Scholarship** and the **Gratitude Scholarship for Modern Scientists**.
+
+
+
+- *2024.09*: &nbsp; Our paper [**Causal Mechanism-Enabled Zero-Label Learning for Power Generation Forecasting of Newly-Built PV Sites**](https://ieeexplore.ieee.org/abstract/document/10679087/) has been accepted by **IEEE Transactions on Sustainable Energy**, check it out!
+
+
+- *2024.08*: &nbsp; I am delighted to be going to **Cambridge as a visiting student**.
+
+
+
+
+
+
+
+# 📝 Selected Publications 
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
+[Diffusion Dataset Condensation: Training Your Diffusion Model Faster with Less Data](https://arxiv.org/abs/2507.05914)
 
-**Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun
+**Rui Huang**<sup style="font-size: 1.1em; position: relative; top: -2px;">*</sup> , Shitong Shao<sup style="font-size: 1.1em; position: relative; top: -2px;">*</sup> , Zikai Zhou, Pukun Zhao, Hangyu Guo, Tian Ye, Lichen Bai, Shuo Yang, Zeke Xie<sup>†</sup>
+
+
 
 [**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
@@ -46,15 +78,14 @@ My research interest includes neural machine translation and computer vision. I 
 
 
 # 📖 Educations
-- *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2023.09 - 2027.06*,  ["Everest Project"](https://www.peopleapp.com/rmharticle/30022294217) Computer Top Talent Experimental Class, University of Electronic Science and Technology of China
 
 
 
 # 🏆 Honors
 - [2025] **SenseTime Scholarship（商汤奖学金）** *(award rate <0.1%; 30 undergrads China-wide)* 
 - [2024] **National Scholarship（国家奖学金）** *(top recipient in the college)* 
-- [2024] **Ganen Modern Science Fellowship （感恩中国近现代科学家助学金）** *(top 10 in school)* 
+- [2024] **Gratitude Scholarship for Modern Scientists （感恩中国近现代科学家助学金）** *(top 10 in school)* 
 - [2024] **Excellence Scholarship — School of Computer Science, UESTC** 
 - [2024] **First-Class Scholarship for Outstanding Students** 
 

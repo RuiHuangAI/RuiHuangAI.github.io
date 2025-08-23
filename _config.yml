@@ -7,8 +7,8 @@
 
 # Site Settings
 title                    : "Rui Huang"
-description              : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. "
-repository               : "RayeRen/acad-homepage.github.io"
+description              : "University of Electronic Science and Technology of China. "
+repository               : "RuiHuangAI/RuiHuangAI.github.io"
 google_scholar_stats_use_cdn : true
 
 # google analytics
@@ -23,12 +23,12 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Rui Huang"
   avatar           : "images/RuiHuang.png"
-  bio              : "Lorem ipsum College"
-  location         : "Beijing, China"
+  bio              : "Undergraduate Student"
+  location         : 
   employer         :
   pubmed           : 
-  googlescholar    : "https://scholar.google.com/citations?user=YOUR_GOOGLE_SCHOLAR_ID"
-  email            : "Lorem@ipsum.com"
+  googlescholar    : "https://scholar.google.com/citations?user=Bdam5iQAAAAJ"
+  email            : "huang_rui@std.uestc.edu.cn"
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
