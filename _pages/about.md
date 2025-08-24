@@ -19,7 +19,7 @@ redirect_from:
 
 #  About Me
 
-Hello! 👏 I’m a sophomore in **[UESTC’s “Everest Project”](https://www.uestc.edu.cn/%22%E5%AD%A6%E6%A0%A1%E5%AE%98%E7%BD%91%E2%80%9C)** Computer Top-Talent Experimental Class (2023–2027), majoring in Computer Science. Now, I’m interested in LLM SFT/RL and reasoning, image/video generation, and unified multimodal models. Earlier, I explored AI for smart grids and remote-sensing image fusion. You can find my [resume](https://ruihuangai.github.io/files/cv/RuiHuang_CV%202025.06.pdf) or [中文简历](https://ruihuangai.github.io/files/cv/RuiHuang_CV%20(Chinese)2025.08.pdf) here.
+Hello! 👏 I’m a sophomore in **[UESTC’s “Everest Project”](https://www.uestc.edu.cn/%22%E5%AD%A6%E6%A0%A1%E5%AE%98%E7%BD%91%E2%80%9C)** Computer Top-Talent Experimental Class (2023–2027), majoring in Computer Science. Now, I’m interested in LLM SFT/RL and reasoning, image/video generation, and unified multimodal models. Earlier, I explored AI for smart grids and remote-sensing image fusion. You can find my [resume](https://ruihuangai.github.io/files/cv/RuiHuang_CV%202025.08.pdf) or [中文简历](https://ruihuangai.github.io/files/cv/RuiHuang_CV%20(Chinese)2025.08.pdf) here.
 
 ⭐  I am eager to discuss potential collaborations and am **actively seeking research internship opportunities(industry/academia),including onsite roles**. Please feel free to contact me via email or WeChat: huangrui_dby if you are interested!!!
 
@@ -69,7 +69,7 @@ Hello! 👏 I’m a sophomore in **[UESTC’s “Everest Project”](https://www
 
 
 
-[**[PDF]**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong> **[Code]**    <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+[**[PDF]**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong> **[Github]**    <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 
 **TL;DR:** *Proposed D²C: Diffusion Dataset Condensation for diffusion models, **enabling 100× faster training** with 0.8%–4% data via sample selection and semantic enhancement; **trained on hundreds of A800/H100 GPUs.***
 
@@ -92,7 +92,7 @@ Jie Huang<sup style="font-size: 1.1em; position: relative; top: -2px;">*</sup>, 
 
 
 
-[**[PDF]**](https://arxiv.org/pdf/2502.04903) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>    [**[Code]**](https://github.com/Jie-1203/WFANet) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+[**[PDF]**](https://arxiv.org/pdf/2502.04903) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>    [**[Github]**](https://github.com/Jie-1203/WFANet) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 
 **TL;DR:** *Proposed WFANet for image fusion, **combining wavelet transformation with attention**, achieving SOTA on multiple datasets.*
 
@@ -109,7 +109,7 @@ Jie Huang<sup style="font-size: 1.1em; position: relative; top: -2px;">*</sup>, 
 Ziyu Guo<sup style="font-size: 1.1em; position: relative; top: -2px;">*</sup>, Renrui Zhang<sup style="font-size: 1.1em; position: relative; top: -2px;">*</sup><sup>†</sup>, Chengzhuo Tong<sup style="font-size: 1.1em; position: relative; top: -2px;">*</sup>, Zhizheng Zhao<sup style="font-size: 1.1em; position: relative; top: -2px;">*</sup>, **Rui Huang**, Haoquan Zhang, Manyuan Zhang, Jiaming Liu, Shanghang Zhang, Peng Gao, Hongsheng Li, Pheng-Ann Heng
 
 
-[**[PDF]**](https://arxiv.org/pdf/2501.13926) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>    [**[Code]**](https://github.com/ZiyuGuo99/Image-Generation-CoTt) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+[**[PDF]**](https://arxiv.org/pdf/2501.13926) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>    [**[Github🌟790+]**](https://github.com/ZiyuGuo99/Image-Generation-CoT) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 
 **TL;DR:** *Proposed **CoT-Imag**e with step-wise reasoning and novel reward models (PARM/PARM++), improving autoregressive image generation by 24% via test-time verification and preference alignment.*
 
@@ -124,7 +124,7 @@ Ziyu Guo<sup style="font-size: 1.1em; position: relative; top: -2px;">*</sup>, R
 **Rui Huang**, Pengfei Zhao, Di Cao<sup>†</sup>, Weihao Hu, Qi Huang, Zhe Chen
 
 
-**[PDF]** <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>    **[Code]** <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+**[PDF]** <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>    **[Github]** <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 
 **TL;DR:** *Proposed the Complementary Online Learning Network (COLNet) with a **Weather-aware gating mechanism for high precision probabilistic** and point forecasting under extreme weather.*
 
