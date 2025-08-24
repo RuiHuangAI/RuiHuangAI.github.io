@@ -19,10 +19,9 @@ redirect_from:
 
 #  About Me
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. Suspendisse condimentum, libero vel tempus mattis, risus risus vulputate libero, elementum fermentum mi neque vel nisl. Maecenas facilisis maximus dignissim. Curabitur mattis vulputate dui, tincidunt varius libero luctus eu. Mauris mauris nulla, scelerisque eget massa id, tincidunt congue felis. Sed convallis tempor ipsum rhoncus viverra. Pellentesque nulla orci, accumsan volutpat fringilla vitae, maximus sit amet tortor. Aliquam ultricies odio ut volutpat scelerisque. Donec nisl nisl, porttitor vitae pharetra quis, fringilla sed mi. Fusce pretium dolor ut aliquam consequat. Cras volutpat, tellus accumsan mattis molestie, nisl lacus tempus massa, nec malesuada tortor leo vel quam. Aliquam vel ex consectetur, vehicula leo nec, efficitur eros. Donec convallis non urna quis feugiat.
+Hello! 👏 I’m a sophomore in **[UESTC’s “Everest Project”](https://www.uestc.edu.cn/%22%E5%AD%A6%E6%A0%A1%E5%AE%98%E7%BD%91%E2%80%9C)** Computer Top-Talent Experimental Class (2023–2027), majoring in Computer Science. Now, I’m interested in LLM SFT/RL and reasoning, image/video generation, and unified multimodal models. Earlier, I explored AI for smart grids and remote-sensing image fusion. You can find my [resume](https://ruihuangai.github.io/files/cv/RuiHuang_CV%202025.06.pdf) or [中文简历](https://ruihuangai.github.io/files/cv/RuiHuang_CV%20(Chinese)2025.08.pdf) here.
 
-My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
-
+⭐  I am eager to discuss potential collaborations and am **actively seeking research internship opportunities(industry/academia),including onsite roles**. Please feel free to contact me via email or WeChat: huangrui_dby if you are interested!!!
 
 # 🔥 News
 - *2025.07*: &nbsp;🎉 I'm honored to be invited to be a reviewer of **AAAI 2026**!
@@ -58,23 +57,96 @@ My research interest includes neural machine translation and computer vision. I 
 
 
 
-# 📝 Selected Publications 
+# 📝 Selected Publications ＆ Preprints
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review</div><img src='images/D2C.png' alt="D2C" style="width: 100%; height: auto; object-fit: cover; max-height: 200px;"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Diffusion Dataset Condensation: Training Your Diffusion Model Faster with Less Data](https://arxiv.org/abs/2507.05914)
+[🔥Diffusion Dataset Condensation: Training Your Diffusion Model Faster with Less Data](https://arxiv.org/abs/2507.05914)
 
 **Rui Huang**<sup style="font-size: 1.1em; position: relative; top: -2px;">*</sup> , Shitong Shao<sup style="font-size: 1.1em; position: relative; top: -2px;">*</sup> , Zikai Zhou, Pukun Zhao, Hangyu Guo, Tian Ye, Lichen Bai, Shuo Yang, Zeke Xie<sup>†</sup>
 
 
 
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+[**[PDF]**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong> **[Code]**    <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+
+**TL;DR:** *Proposed D²C: Diffusion Dataset Condensation for diffusion models, **enabling 100× faster training** with 0.8%–4% data via sample selection and semantic enhancement; **trained on hundreds of A800/H100 GPUs.***
+
 </div>
 </div>
 
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
+
+
+
+
+
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2025 Oral</div><img src='images/WFANet.png' alt="D2C" style="width: 100%; height: auto; object-fit: cover; max-height: 200px;"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[🔥Wavelet-Assisted Multi-Frequency Attention Network for Pansharpening](https://arxiv.org/pdf/2502.04903)
+
+Jie Huang<sup style="font-size: 1.1em; position: relative; top: -2px;">*</sup>, **Rui Huang**<sup style="font-size: 1.1em; position: relative; top: -2px;">*</sup>, Jinghao Xu, Siran Pen, Yule Duan, Liangjian Deng<sup>†</sup>
+
+
+
+[**[PDF]**](https://arxiv.org/pdf/2502.04903) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>    [**[Code]**](https://github.com/Jie-1203/WFANet) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+
+**TL;DR:** *Proposed WFANet for image fusion, **combining wavelet transformation with attention**, achieving SOTA on multiple datasets.*
+
+</div>
+</div>
+
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv</div><img src='images/CoTImage.png' alt="D2C" style="width: 100%; height: auto; object-fit: cover; max-height: 200px;"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[🔥Can We Generate Images with CoT? Let's Verify and Reinforce Image Generation Step by Step](https://arxiv.org/pdf/2501.13926)
+
+Ziyu Guo<sup style="font-size: 1.1em; position: relative; top: -2px;">*</sup>, Renrui Zhang<sup style="font-size: 1.1em; position: relative; top: -2px;">*</sup><sup>†</sup>, Chengzhuo Tong<sup style="font-size: 1.1em; position: relative; top: -2px;">*</sup>, Zhizheng Zhao<sup style="font-size: 1.1em; position: relative; top: -2px;">*</sup>, **Rui Huang**, Haoquan Zhang, Manyuan Zhang, Jiaming Liu, Shanghang Zhang, Peng Gao, Hongsheng Li, Pheng-Ann Heng
+
+
+[**[PDF]**](https://arxiv.org/pdf/2501.13926) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>    [**[Code]**](https://github.com/ZiyuGuo99/Image-Generation-CoTt) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+
+**TL;DR:** *Proposed **CoT-Imag**e with step-wise reasoning and novel reward models (PARM/PARM++), improving autoregressive image generation by 24% via test-time verification and preference alignment.*
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review</div><img src='images/COLNet.png' alt="D2C" style="width: 100%; height: auto; object-fit: cover; max-height: 200px;"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**Complementary Online Learning Network for Probabilistic Load Forecasting Against Extreme Weather**
+
+**Rui Huang**, Pengfei Zhao, Di Cao<sup>†</sup>, Weihao Hu, Qi Huang, Zhe Chen
+
+
+**[PDF]** <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>    **[Code]** <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+
+**TL;DR:** *Proposed the Complementary Online Learning Network (COLNet) with a **Weather-aware gating mechanism for high precision probabilistic** and point forecasting under extreme weather.*
+
+</div>
+</div>
+
+
+
+- [A Novel Spatiotemporal Pyramidal Graph Modeling Approach for Short-Term Residential Load Forecasting](https://ieeexplore.ieee.org/abstract/document/11036164)
+
+  Pengfei Zhao, Weihao Hu, Di Cao, **Rui Huang**, Xingtao Bai, Qi Huang, Zhe Chen
+
+  **IEEE Transactions on Industrial Informatics** <span style="color:rgb(42, 25, 23); font-weight: bold; text-decoration: underline;">(SCI Q1, IF: 10.2)</span>
+
+
+
+- [Causal Mechanism-Enabled Zero-Label Learning for Power Generation Forecasting of Newly-Built PV Sites](https://ieeexplore.ieee.org/abstract/document/10679087)
+
+  Pengfei Zhao, Weihao Hu, Di Cao, **Rui Huang**, Xiawei Wu, Qi Huang, Zhe Chen
+
+  **IEEE Transactions on Sustainable Energy** <span style="color:rgb(46, 24, 21); font-weight: bold; text-decoration: underline;">(SCI Q1, IF: 10.2)</span>
+
 
 
 # 📖 Educations
