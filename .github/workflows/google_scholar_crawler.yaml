@@ -14,16 +14,12 @@ jobs:
     - uses: actions/checkout@v3
       with:
         fetch-depth: 0
-    - name: Install Reqs
+    - name: Generate Empty Citation Data
       run: |
-        sudo apt-get update
-        sudo apt-get install -y python3-setuptools python3-pip
-    - name: Run Google Scholar Crawler
-      run: |
-        cd ./google_scholar_crawler
-        pip3 install -r requirements.txt
-        python3 main.py
-        cd ./results
+        mkdir -p ./google_scholar_crawler/results
+        echo '{"name": "Empty Data", "citedby": 0, "publications": {}, "updated": "'$(date -u +"%Y-%m-%dT%H:%M:%SZ")'"}' > ./google_scholar_crawler/results/gs_data.json
+        echo '{"schemaVersion": 1, "label": "citations", "message": "0"}' > ./google_scholar_crawler/results/gs_data_shieldsio.json
+        cd ./google_scholar_crawler/results
         git init
         git config --local user.name "${GITHUB_ACTOR}"
         git config --local user.email "${GITHUB_ACTOR}@users.noreply.github.com"
@@ -31,5 +27,3 @@ jobs:
         git add *.json
         git commit -m "Updated Citation Data - $(date)"
         git push "${remote_repo}" HEAD:google-scholar-stats --force
-      env: 
-        GOOGLE_SCHOLAR_ID: ${{ secrets.GOOGLE_SCHOLAR_ID }}
