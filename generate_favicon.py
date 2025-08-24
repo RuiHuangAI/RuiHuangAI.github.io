@@ -38,6 +38,9 @@ def generate_favicon():
         
         print("\n所有favicon文件已生成完成！")
         
+        
+        
+        
     except Exception as e:
         print(f"❌ 错误: {e}")
 
