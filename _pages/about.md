@@ -146,7 +146,7 @@ Ziyu Guo<sup style="font-size: 1.1em; position: relative; top: -2px;">*</sup>, R
 
   Pengfei Zhao, Weihao Hu, Di Cao, **Rui Huang**, Xiawei Wu, Qi Huang, Zhe Chen
 
-  **IEEE Transactions on Sustainable Energy** <span style="color:rgb(46, 24, 21); font-weight: bold; text-decoration: underline;">(SCI Q1, IF: 10.2)</span>
+  **IEEE Transactions on Sustainable Energy** <span style="color:rgb(46, 24, 21); font-weight: bold; text-decoration: underline;">(SCI Q1, IF: 7.9)</span>
 
 
 
