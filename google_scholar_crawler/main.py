@@ -1,11 +1,21 @@
-from scholarly import scholarly
+# from scholarly import scholarly
 import jsonpickle
 import json
 from datetime import datetime
 import os
 
-author: dict = scholarly.search_author_id(os.environ['GOOGLE_SCHOLAR_ID'])
-scholarly.fill(author, sections=['basics', 'indices', 'counts', 'publications'])
+# 不再爬取谷歌学术数据，直接生成空值
+# author: dict = scholarly.search_author_id(os.environ['GOOGLE_SCHOLAR_ID'])
+# scholarly.fill(author, sections=['basics', 'indices', 'counts', 'publications'])
+
+# 创建空的作者数据
+author = {
+    'name': 'Empty Data',
+    'citedby': 0,
+    'publications': {},
+    'updated': str(datetime.now())
+}
+
 name = author['name']
 author['updated'] = str(datetime.now())
 author['publications'] = {v['author_pub_id']:v for v in author['publications']}
