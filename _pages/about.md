@@ -69,7 +69,7 @@ Hello! 👏 I’m a sophomore in **[UESTC’s “Everest Project”](https://www
 
 
 
-[**[PDF]**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong> **[Github]**    <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+[**[PDF]**](https://arxiv.org/abs/2507.05914) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong> **[Github]**    <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 
 **TL;DR:** *Proposed D²C: Diffusion Dataset Condensation for diffusion models, **enabling 100× faster training** with 0.8%–4% data via sample selection and semantic enhancement; **trained on hundreds of A800/H100 GPUs.***
 
@@ -135,7 +135,7 @@ Ziyu Guo<sup style="font-size: 1.1em; position: relative; top: -2px;">*</sup>, R
 
 - [A Novel Spatiotemporal Pyramidal Graph Modeling Approach for Short-Term Residential Load Forecasting](https://ieeexplore.ieee.org/abstract/document/11036164)
 
-  Pengfei Zhao, Weihao Hu, Di Cao, **Rui Huang**, Xingtao Bai, Qi Huang, Zhe Chen
+  Pengfei Zhao, Weihao Hu, Di Cao<sup>†</sup>, **Rui Huang**, Xingtao Bai, Qi Huang, Zhe Chen
 
   **IEEE Transactions on Industrial Informatics** <span style="color:rgb(42, 25, 23); font-weight: bold; text-decoration: underline;">(SCI Q1, IF: 10.2)</span>
 
@@ -143,7 +143,7 @@ Ziyu Guo<sup style="font-size: 1.1em; position: relative; top: -2px;">*</sup>, R
 
 - [Causal Mechanism-Enabled Zero-Label Learning for Power Generation Forecasting of Newly-Built PV Sites](https://ieeexplore.ieee.org/abstract/document/10679087)
 
-  Pengfei Zhao, Weihao Hu, Di Cao, **Rui Huang**, Xiawei Wu, Qi Huang, Zhe Chen
+  Pengfei Zhao, Weihao Hu, Di Cao<sup>†</sup>, **Rui Huang**, Xiawei Wu, Qi Huang, Zhe Chen
 
   **IEEE Transactions on Sustainable Energy** <span style="color:rgb(46, 24, 21); font-weight: bold; text-decoration: underline;">(SCI Q1, IF: 7.9)</span>
 
@@ -177,7 +177,7 @@ Ziyu Guo<sup style="font-size: 1.1em; position: relative; top: -2px;">*</sup>, R
 - [2025.07]  [黄锐：“打造令人认可的中国AI产品”](https://jydb.scedumedia.com/DocumentElectronic/doc-28982.html) *-Interview by Education Herald*
 - [2025.04]  [🥇祝贺！全国金奖+2！](https://mp.weixin.qq.com/s/eoLKKNKcTUJcSMPlTtW2sA) *-Report by UESTC’s official account*
 - [2025.04]  [【理想·担当 国奖风采】黄锐](https://mp.weixin.qq.com/s/OVhtz43FR5bH8AVfJMk1zg) *-Report by UESTC Student Financial Aid*
-- [2024.10]  [【直播回放】电子科大AI社活动进行中](https://www.bilibili.com/video/BV1tz1xYGEEL/?spm_id_from=333.1387.homepage.video_card.click&vd_source=1793c3afa55cd8923e0993ef7169b7ba) *-Report by UESTC Student Financial Aid*
+- [2024.10]  [【直播回放】电子科大AI社活动进行中](https://space.bilibili.com/3494373601839146?spm_id_from=333.788.upinfo.head.click) *-Report by UESTC Student Financial Aid*
 - [2024.08]  [实践印记｜【致广大，尽精微】直播带货助力乡村经济，教育扶贫点亮希望之灯](https://mp.weixin.qq.com/s/x_NFfYF_0fYwwFT2cZkhKg) *-Report by UESTC Social Practice*
 
 
