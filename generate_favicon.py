@@ -5,7 +5,7 @@ import os
 def generate_favicon():
     # 打开原始图片
     try:
-        img = Image.open('images/RuiHuang.png')
+        img = Image.open('images/cat.jpg')
         
         # 生成不同尺寸的favicon
         sizes = {

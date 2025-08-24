@@ -9,7 +9,7 @@ from watchdog.events import FileSystemEventHandler
 class JekyllHandler(FileSystemEventHandler):
     def __init__(self):
         self.last_modified = 0
-        self.debounce_time = 2  # 2秒防抖
+        self.debounce_time = 0.8  # 2秒防抖
         
     def on_modified(self, event):
         if event.is_directory:

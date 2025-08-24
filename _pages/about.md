@@ -25,19 +25,19 @@ My research interest includes neural machine translation and computer vision. I 
 
 
 # 🔥 News
-- *2025.07*: &nbsp; I'm honored to be invited to be a reviewer of **AAAI 2026**!
+- *2025.07*: &nbsp;🎉 I'm honored to be invited to be a reviewer of **AAAI 2026**!
 
 
-- *2025.06*: &nbsp;🏆 I'm so happy to be 1/30 of **<span style="color: red;">SenseTime Scholarship 2025</span>!** *This is the greatest praise I have received so far.* 
+- *2025.06*: &nbsp;🏆 I'm so happy to be 1/30 of **SenseTime Scholarship 2025!** *This is the greatest praise I have received so far.* 
 
-- *2025.06*: &nbsp; We pre-released [**Diffusion Dataset Condensation**](https://arxiv.org/abs/2507.05914) on arXiv, **accelerating the pre-training of diffusion models by 100x**!!!. The entire project used **hundreds of H100/A100**!!
-
-
-
-- *2025.03*: &nbsp; We released [**CoT Image**](https://arxiv.org/abs/2501.13926), The first to **introduce CoT-style strategies into image generation**, it has attracted widespread attention in the community and received over **700+ stars**!!
+- *2025.06*: &nbsp;🎉 We pre-released [**Diffusion Dataset Condensation**](https://arxiv.org/abs/2507.05914) on arXiv, **accelerating the pre-training of diffusion models by 100x**!!!. The entire project used **hundreds of H100/A100**!!
 
 
-- *2024.12*: &nbsp; Our paper [**Wavelet-Assisted Multi-Frequency Attention Network for Pansharpening**](https://ojs.aaai.org/index.php/AAAI/article/view/32381) has been accepted by **AAAI 2025** and selected for **<span style="color: red;">Oral Presentation</span>**. See you in Philadelphia!!!!
+
+- *2025.03*: &nbsp;🎉 We released [**CoT Image**](https://arxiv.org/abs/2501.13926), The first to **introduce CoT-style strategies into image generation**, it has attracted widespread attention in the community and received over **700+ stars**!!
+
+
+- *2024.12*: &nbsp;🎉 Our paper [**Wavelet-Assisted Multi-Frequency Attention Network for Pansharpening**](https://ojs.aaai.org/index.php/AAAI/article/view/32381) has been accepted by **AAAI 2025** and selected for **Oral Presentation**. See you in Philadelphia!!!!
 
 
 
@@ -47,10 +47,10 @@ My research interest includes neural machine translation and computer vision. I 
 
 
 
-- *2024.09*: &nbsp; Our paper [**Causal Mechanism-Enabled Zero-Label Learning for Power Generation Forecasting of Newly-Built PV Sites**](https://ieeexplore.ieee.org/abstract/document/10679087/) has been accepted by **IEEE Transactions on Sustainable Energy**, check it out!
+- *2024.09*: &nbsp;🎉 Our paper [**Causal Mechanism-Enabled Zero-Label Learning for Power Generation Forecasting of Newly-Built PV Sites**](https://ieeexplore.ieee.org/abstract/document/10679087/) has been accepted by **IEEE Transactions on Sustainable Energy**, check it out!
 
 
-- *2024.08*: &nbsp; I am delighted to be going to **Cambridge as a visiting student**.
+- *2024.08*: &nbsp;🎉 I am delighted to be going to **Cambridge as a visiting student**.
 
 
 
