@@ -21,7 +21,7 @@ redirect_from:
 
 Hello! 👏 I’m a third-year undergraduate student in **[UESTC’s “Everest Project”](https://www.uestc.edu.cn/%22%E5%AD%A6%E6%A0%A1%E5%AE%98%E7%BD%91%E2%80%9C)** Computer Top-Talent Experimental Class (2023–2027), majoring in Computer Science. Now, I’m interested in **LLM SFT/RL and reasoning, image/video generation, and unified multimodal models**. Earlier, I explored AI for smart grids and remote-sensing image fusion. You can find my [resume](https://ruihuangai.github.io/files/cv/RuiHuang_CV%202025.08.pdf) or [中文简历](https://ruihuangai.github.io/files/cv/RuiHuang_CV%20(Chinese)2025.08.pdf) here.
 
-⭐  I am eager to discuss potential collaborations and am **actively seeking research internship opportunities(industry/academia),including onsite roles**.I ‘m also seeking for **2027 fall PHD position**. Please feel free to contact me via **email**: [huang_rui@std.uestc.edu.cn],[paulafixamiworali@gmail.com] or **WeChat: huangrui_dby** if you are interested.I warmly welcome your message and look forward to connecting!!!!!
+⭐  I am eager to discuss potential collaborations and am **actively seeking research internship opportunities(industry/academia),including onsite roles**.I ‘m also seeking for **2027 fall PHD position**. Please feel free to contact me via **email**: [huang_rui@std.uestc.edu.cn],[paulafixamiworali@gmail.com] or **WeChat: huangrui_dby** if you are interested.I warmly welcome your message and look forward to connecting!
 
 # 🔥 News
 - *2025.07*: &nbsp;🎉 I'm honored to be invited to be a reviewer of **AAAI 2026**!
@@ -171,10 +171,9 @@ Ziyu Guo<sup style="font-size: 1.1em; position: relative; top: -2px;">*</sup>, R
 
 
 
-
 # 💬 Talks ＆ Reports
 - [2025.07]  [2025商汤奖学金公布！30位"AI新星"亮相](https://mp.weixin.qq.com/s?__biz=MzIwNTcyNzYwMA==&mid=2247517938&idx=1&sn=66103a3998e7b3755f32af5f3be6f75b&chksm=96e07ee6277e2872fd2e00976286c33afd25a3e466b2235657aa9a7f7e425bd2049666d1f09c&mpshare=1&scene=24&srcid=0718Inq5SGowPE7uvemNIILr&sharer_shareinfo=a746172ad5ef5bcbf81c2cc917ead121&sharer_shareinfo_first=a746172ad5ef5bcbf81c2cc917ead121&clicktime=1752772305&enterid=1752772305&ascene=14&devicetype=iOS18.5&version=18003d2c&nettype=WIFI&abtest_cookie=AAACAA%3D%3D&lang=zh_CN&countrycode=CN&fontScale=100&exportkey=n_ChQIAhIQqPwcIHfowKVjYOeA6C%2BHzhLfAQIE97dBBAEAAAAAAAghJgamoiYAAAAOpnltbLcz9gKNyK89dVj0cvYatumNjj57SbppV1In%2BGmhL5mBcw8dLpPMvsDQrln9KoP6Yqd5ipvH5ma9O85VWBRBdWS2XBPnJCnzIwnNWUNU%2FLQV0bePCOLpm7iqaVTSW%2FHug927DWs5Dof7AvC9CgCPSjJFZyehad4ikLg%2FKPIpvuldlclO8bVQlRa12SHXW9EOQNSAntdRDdlB%2B3G5z96%2BhAQMKZaAAOQ4jAqOFoW1RXF7l5vBUl1vhT3mhh0odgsSB9uRPS0%3D&pass_ticket=CNrTSQMfCS8c%2BMHFmEC1jRecvwJVfSjQ5iTcZBlPLU1LtfYC0lPWwK4T5Eq7Xv2K&wx_header=3) *-Interview by SenseTime*
-- [2025.07]  [黄锐：“打造令人认可的中国AI产品”](https://jydb.scedumedia.com/DocumentElectronic/doc-28982.html) *-Interview by Education Herald*
+- [2025.07]  [黄锐：“打造令人认可的中国AI产品”](https://ruihuangai.github.io/files/cv/5845817.pdf) *-Interview by Education Herald*
 - [2025.04]  [🥇祝贺！全国金奖+2！](https://mp.weixin.qq.com/s/eoLKKNKcTUJcSMPlTtW2sA) *-Report by UESTC’s official account*
 - [2025.04]  [【理想·担当 国奖风采】黄锐](https://mp.weixin.qq.com/s/OVhtz43FR5bH8AVfJMk1zg) *-Report by UESTC Student Financial Aid*
 - [2024.10]  [【直播回放】电子科大AI社活动进行中](https://space.bilibili.com/3494373601839146?spm_id_from=333.788.upinfo.head.click) *-Report by UESTC Student Financial Aid*
