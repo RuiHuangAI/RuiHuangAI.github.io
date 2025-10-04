@@ -101,7 +101,7 @@ Jie Huang<sup style="font-size: 1.1em; position: relative; top: -2px;">*</sup>, 
 
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv</div><img src='images/CoTImage.png' alt="D2C" style="width: 100%; height: auto; object-fit: cover; max-height: 200px;"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review</div><img src='images/CoTImage.png' alt="D2C" style="width: 100%; height: auto; object-fit: cover; max-height: 200px;"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [🔥Can We Generate Images with CoT? Let's Verify and Reinforce Image Generation Step by Step](https://arxiv.org/pdf/2501.13926)
@@ -113,21 +113,24 @@ Ziyu Guo<sup style="font-size: 1.1em; position: relative; top: -2px;">*</sup>, R
 
 **TL;DR:** *Proposed **CoT-Imag**e with step-wise reasoning and novel reward models (PARM/PARM++), improving autoregressive image generation by 24% via test-time verification and preference alignment.*
 
+
 </div>
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv</div><img src='images/CoTImage.png' alt="D2C" style="width: 100%; height: auto; object-fit: cover; max-height: 200px;"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review</div><img src='images/UniVA.png' alt="D2C" style="width: 100%; height: auto; object-fit: cover; max-height: 200px;"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[🔥Can We Generate Images with CoT? Let's Verify and Reinforce Image Generation Step by Step](https://arxiv.org/pdf/2501.13926)
 
-Ziyu Guo<sup style="font-size: 1.1em; position: relative; top: -2px;">*</sup>, Renrui Zhang<sup style="font-size: 1.1em; position: relative; top: -2px;">*</sup><sup>†</sup>, Chengzhuo Tong<sup style="font-size: 1.1em; position: relative; top: -2px;">*</sup>, Zhizheng Zhao<sup style="font-size: 1.1em; position: relative; top: -2px;">*</sup>, **Rui Huang**, Haoquan Zhang, Manyuan Zhang, Jiaming Liu, Shanghang Zhang, Peng Gao, Hongsheng Li, Pheng-Ann Heng
+[🔥UniVA: Universal Video Agents towards Next-Generation Video Intelligence](https://univa-agent.github.io/)
+
+Zhengyang Liang<sup style="font-size: 1.1em; position: relative; top: -2px;">*</sup>, Daoan Zhang<sup style="font-size: 1.1em; position: relative; top: -2px;">*</sup>, Huichi Zhou, **Rui Huang**, Bobo Li, Shengqiong Wu, Yuechen Zhang, Xiaohan Wang, Jiebo Luo, Lizi Liao, Hao Fei
 
 
-[**[PDF]**](https://arxiv.org/pdf/2501.13926) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>    [**[Github🌟790+]**](https://github.com/ZiyuGuo99/Image-Generation-CoT) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+[**[PDF]**](https://univa-agent.github.io/asserts/pdf/UniVA_ICLR2025_v4.pdf) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>    [**[HomePage]**](https://univa-agent.github.io/) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 
-**TL;DR:** *Proposed **CoT-Imag**e with step-wise reasoning and novel reward models (PARM/PARM++), improving autoregressive image generation by 24% via test-time verification and preference alignment.*
+
+**TL;DR:** *UniVA unifies **understanding/segmentation/editing/generation** into traceable multi-step video workflows via Plan–Act agents, multi-level memory, and modular tools, plus UniVA-Bench.*
 
 </div>
 </div>
