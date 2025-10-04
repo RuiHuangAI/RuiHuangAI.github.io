@@ -35,6 +35,7 @@ Hello! 👏 I’m a third-year undergraduate student in **[UESTC’s “Everest 
 
 - *2025.06*: &nbsp;🎉 We pre-released [**Diffusion Dataset Condensation**](https://arxiv.org/abs/2507.05914) on arXiv, **accelerating the pre-training of diffusion models by 100x**!!!. The entire project used **hundreds of H100/A100**!!
 
+- *2025.06*: &nbsp;🎉 One paper has been accepted by [**IEEE Transactions on Industrial Informatics**](https://ieeexplore.ieee.org/abstract/document/11036164), completed during my first research internship in AI for smart grid!
 
 
 - *2025.03*: &nbsp;🎉 We released [**CoT Image**](https://arxiv.org/abs/2501.13926), The first to **introduce CoT-style strategies into image generation**, it has attracted widespread attention in the community and received over **790+ stars**!!
@@ -50,11 +51,11 @@ Hello! 👏 I’m a third-year undergraduate student in **[UESTC’s “Everest 
 
 
 
-- *2024.09*: &nbsp;🎉 Our paper [**Causal Mechanism-Enabled Zero-Label Learning for Power Generation Forecasting of Newly-Built PV Sites**](https://ieeexplore.ieee.org/abstract/document/10679087/) has been accepted by **IEEE Transactions on Sustainable Energy**, check it out!
-
+- *2024.09*: &nbsp;🎉 One paper has been accepted by [**IEEE Transactions on Sustainable Energy**](https://ieeexplore.ieee.org/abstract/document/10679087/), completed during my first research internship in AI for smart grid.
 
 - *2024.08*: &nbsp;🎉 I am delighted to be going to **Cambridge as a visiting student**.
 
+- *2023.12*: &nbsp;🌱 The starting point of my academic journey.
 
 
 
