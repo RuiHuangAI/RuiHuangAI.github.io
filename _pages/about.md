@@ -116,6 +116,24 @@ Ziyu Guo<sup style="font-size: 1.1em; position: relative; top: -2px;">*</sup>, R
 </div>
 </div>
 
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv</div><img src='images/CoTImage.png' alt="D2C" style="width: 100%; height: auto; object-fit: cover; max-height: 200px;"></div></div>git 
+<div class='paper-box-text' markdown="1">
+
+[🔥Can We Generate Images with CoT? Let's Verify and Reinforce Image Generation Step by Step](https://arxiv.org/pdf/2501.13926)
+
+Ziyu Guo<sup style="font-size: 1.1em; position: relative; top: -2px;">*</sup>, Renrui Zhang<sup style="font-size: 1.1em; position: relative; top: -2px;">*</sup><sup>†</sup>, Chengzhuo Tong<sup style="font-size: 1.1em; position: relative; top: -2px;">*</sup>, Zhizheng Zhao<sup style="font-size: 1.1em; position: relative; top: -2px;">*</sup>, **Rui Huang**, Haoquan Zhang, Manyuan Zhang, Jiaming Liu, Shanghang Zhang, Peng Gao, Hongsheng Li, Pheng-Ann Heng
+
+
+[**[PDF]**](https://arxiv.org/pdf/2501.13926) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>    [**[Github🌟790+]**](https://github.com/ZiyuGuo99/Image-Generation-CoT) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+
+**TL;DR:** *Proposed **CoT-Imag**e with step-wise reasoning and novel reward models (PARM/PARM++), improving autoregressive image generation by 24% via test-time verification and preference alignment.*
+
+
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review</div><img src='images/COLNet.png' alt="D2C" style="width: 100%; height: auto; object-fit: cover; max-height: 200px;"></div></div>
 <div class='paper-box-text' markdown="1">
 
