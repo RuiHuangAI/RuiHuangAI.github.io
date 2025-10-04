@@ -24,6 +24,10 @@ Hello! 👏 I’m a third-year undergraduate student in **[UESTC’s “Everest 
 ⭐  I am eager to discuss potential collaborations and am **actively seeking research internship opportunities(industry/academia),including onsite roles**.I ‘m also seeking for **2027 fall PHD position**. Please feel free to contact me via **email**: [huang_rui@std.uestc.edu.cn],[paulafixamiworali@gmail.com] or **WeChat: huangrui_dby** if you are interested.I warmly welcome your message and look forward to connecting!
 
 # 🔥 News
+
+- *2025.09*: &nbsp;🎉 We pre-released [**UniVA**](https://univa-agent.github.io/), first to unify Video **Understanding/Segmentation/Editing/Generation** into traceable multi-step workflows via Plan–Act agents, multi-level memory, and modular tools, plus UniVA-Bench!
+
+
 - *2025.07*: &nbsp;🎉 I'm honored to be invited to be a reviewer of **AAAI 2026**!
 
 
