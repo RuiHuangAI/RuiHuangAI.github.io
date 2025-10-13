@@ -25,6 +25,10 @@ Hello! 👏 I’m a third-year undergraduate student in **[UESTC’s “Everest 
 
 # 🔥 News
 
+
+- *2024.10*: &nbsp;🏆 I am happy to be awarded the **National Scholarship** of 2025.
+
+
 - *2025.09*: &nbsp;🎉 We pre-released [**UniVA**](https://univa-agent.github.io/), first to unify Video **Understanding/Segmentation/Editing/Generation** into traceable multi-step workflows via Plan–Act agents, multi-level memory, and modular tools, plus UniVA-Bench!
 
 
@@ -35,7 +39,7 @@ Hello! 👏 I’m a third-year undergraduate student in **[UESTC’s “Everest 
 
 - *2025.06*: &nbsp;🎉 We pre-released [**Diffusion Dataset Condensation**](https://arxiv.org/abs/2507.05914) on arXiv, **accelerating the pre-training of diffusion models by 100x**!!!. The entire project used **hundreds of H100/A100**!!
 
-- *2025.06*: &nbsp;🎉 One paper has been accepted by [**IEEE Transactions on Industrial Informatics**](https://ieeexplore.ieee.org/abstract/document/11036164), completed during my first research internship in AI for smart grid!
+- *2025.06*: &nbsp;🎉 One paper has been accepted by [**IEEE Transactions on Industrial Informatics**](https://ieeexplore.ieee.org/abstract/document/11036164), completed during my first research internship in AI for smart grid.
 
 
 - *2025.03*: &nbsp;🎉 We released [**CoT Image**](https://arxiv.org/abs/2501.13926), The first to **introduce CoT-style strategies into image generation**, it has attracted widespread attention in the community and received over **790+ stars**!!
@@ -45,9 +49,7 @@ Hello! 👏 I’m a third-year undergraduate student in **[UESTC’s “Everest 
 
 
 
-
-
-- *2024.10*: &nbsp;🏆 I am happy to be awarded the **National Scholarship** and the **Gratitude Scholarship for Modern Scientists**.
+- *2024.10*: &nbsp;🏆 I am happy to be awarded the **National Scholarship** of 2024 and the **Gratitude Scholarship for Modern Scientists**.
 
 
 
@@ -182,6 +184,7 @@ Zhengyang Liang<sup style="font-size: 1.1em; position: relative; top: -2px;">*</
 
 # 🏆 Honors
 - [2025] **SenseTime Scholarship（商汤奖学金）** *(award rate <0.1%; 30 undergrads China-wide)* 
+- [2025] **National Scholarship（国家奖学金）** *(top recipient in the college)* 
 - [2024] **National Scholarship（国家奖学金）** *(top recipient in the college)* 
 - [2024] **Gratitude Scholarship for Modern Scientists （感恩中国近现代科学家助学金）** *(top 10 in school)* 
 - [2024] **Excellence Scholarship — School of Computer Science, UESTC** 
