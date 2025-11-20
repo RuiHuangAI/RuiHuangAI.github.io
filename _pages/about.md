@@ -19,7 +19,7 @@ redirect_from:
 
 #  About Me
 
-Hello! 👏 I’m a third-year undergraduate student in **[UESTC’s “Everest Project”](https://www.uestc.edu.cn/%22%E5%AD%A6%E6%A0%A1%E5%AE%98%E7%BD%91%E2%80%9C)** Computer Top-Talent Experimental Class (2023–2027), majoring in Computer Science. Now, I’m interested in **LLM SFT/RL and reasoning, image/video generation, and unified multimodal models**. Earlier, I explored AI for smart grids and remote-sensing image fusion. You can find my [CV](https://ruihuangai.github.io/files/cv/RuiHuang_CV%202025.10.pdf)here.
+Hello! 👏 I’m a third-year undergraduate student in **[UESTC’s “Everest Project”](https://www.uestc.edu.cn/%22%E5%AD%A6%E6%A0%A1%E5%AE%98%E7%BD%91%E2%80%9C)** Computer Top-Talent Experimental Class (2023–2027), majoring in Computer Science. Now, I’m interested in **LLM SFT/RL and reasoning, image/video generation, and unified multimodal models**. Earlier, I explored AI for smart grids and remote-sensing image fusion. You can find my [CV](https://ruihuangai.github.io/files/cv/RuiHuang_CV%202025.10.pdf) here.
 
 ⭐  I am eager to discuss potential collaborations and am **actively seeking research internship opportunities(industry/academia),including onsite roles**.I ‘m also seeking for **2027 fall PHD position**. Please feel free to contact me via **email**: [huang_rui@std.uestc.edu.cn],[paulafixamiworali@gmail.com] or **WeChat: huangrui_dby** if you are interested.I warmly welcome your message and look forward to connecting!
 
@@ -32,7 +32,7 @@ Hello! 👏 I’m a third-year undergraduate student in **[UESTC’s “Everest 
 
 
 
-- *2024.11*: &nbsp;🎉 Thrilled to release [**UniVA: Universal Video Agent**](https://univa.online/) — an open-source next-generation video generalist! UniVA features: 1) 🤖 **Unified Agentic System**  2) 🎬 **Powerful Creation**. [**Try the online demo**](https://univa.online/) now! Check the [**paper**](https://arxiv.org/abs/2511.08521). UniVA has been reported by [**AK**] on [**X**](https://x.com/_akhaliq/status/1989375188404953524). 
+- *2024.11*: &nbsp;🎉 Thrilled to release [**UniVA: Universal Video Agent**](https://univa.online/) — an open-source next-generation video generalist! UniVA features: 1) 🤖 **Unified Agentic System**  2) 🎬 **Powerful Creation**. [**Try the online demo**](https://univa.online/) now! Check the [**paper**](https://arxiv.org/abs/2511.08521). UniVA has been [**reported by AK on X**](https://x.com/_akhaliq/status/1989375188404953524). 
 
 
 - *2024.10*: &nbsp;🏆 Awarded the **National Scholarship** of 2025.
@@ -44,6 +44,10 @@ Hello! 👏 I’m a third-year undergraduate student in **[UESTC’s “Everest 
 - *2025.06*: &nbsp;🏆 Awarded the **SenseTime Scholarship 2025!** 30 undergraduate students nationwide.
 
 - *2025.06*: &nbsp;🎉 We pre-released [**Diffusion Dataset Condensation**](https://arxiv.org/abs/2507.05914) on arXiv, **accelerating the pre-training of diffusion models by 100x**!!. The entire project used **hundreds of H100/A100**!!
+
+<details>
+<summary><b>Show more news ▼</b></summary>
+
 
 - *2025.06*: &nbsp;🎉 One paper has been accepted by [**IEEE Transactions on Industrial Informatics**](https://ieeexplore.ieee.org/abstract/document/11036164), completed during my first research internship in AI for smart grid.
 
@@ -63,12 +67,14 @@ Hello! 👏 I’m a third-year undergraduate student in **[UESTC’s “Everest 
 
 - *2023.12*: &nbsp;🌱 The starting point of my academic journey!
 
+</details>
 
 
 
 
 
-# 📝 Selected Publications ＆ Preprints
+
+# 📝 Selected Publications ＆ Preprints [**[Full List]**](https://scholar.google.com/citations?user=Bdam5iQAAAAJ)
 
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review</div><img src='images/D2C.png' alt="D2C" style="width: 100%; height: auto; object-fit: cover; max-height: 200px;"></div></div>
@@ -131,19 +137,19 @@ Ziyu Guo<sup style="font-size: 1.1em; position: relative; top: -2px;">*</sup>, R
 
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review</div><img src='images/P1.png' alt="D2C" style="width: 100%; height: auto; object-fit: cover; max-height: 200px;"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Tech Report</div><img src='images/P1.png' alt="D2C" style="width: 100%; height: auto; object-fit: cover; max-height: 200px;"></div></div>
 <div class='paper-box-text' markdown="1">
 
 
 [🔥P1: Mastering Physics Olympiads with Reinforcement Learning](https://prime-rl.github.io/P1/)
 
-Jiacheng Chen<sup style="font-size: 1.1em; position: relative; top: -2px;">*</sup>, Qianjia Cheng<sup style="font-size: 1.1em; position: relative; top: -2px;">*</sup>, Fangchen Yu<sup style="font-size: 1.1em; position: relative; top: -2px;">*</sup>........**Rui Huang**.......Lei Bai<sup>†</sup>, Yu Cheng<sup>†</sup>, Ning Ding<sup>†</sup>, Bowen Zhou<sup>†</sup>, Peng Ye<sup>†</sup>, Ganqu Cui<sup>†</sup>
+Jiacheng Chen<sup style="font-size: 1.1em; position: relative; top: -2px;">*</sup>, Qianjia Cheng<sup style="font-size: 1.1em; position: relative; top: -2px;">*</sup>, Fangchen Yu<sup style="font-size: 1.1em; position: relative; top: -2px;">*</sup> ........ **Rui Huang** ....... Lei Bai<sup>†</sup>, Yu Cheng<sup>†</sup>, Ning Ding<sup>†</sup>, Bowen Zhou<sup>†</sup>, Peng Ye<sup>†</sup>, Ganqu Cui<sup>†</sup>
 
 
 [**[PDF]**](https://arxiv.org/pdf/2511.13612) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>    [**[HomePage]**](https://prime-rl.github.io/P1/) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong> [**[量子位]**](https://mp.weixin.qq.com/s/CtxBKr1_pVRD1hEiC4GOfw) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong> 
 
 
-**TL;DR:** *UniVA unifies **understanding/segmentation/editing/generation** into traceable multi-step video workflows via Plan–Act agents, multi-level memory, and modular tools, plus UniVA-Bench.*
+**TL;DR:** *A series of models that achieved **𝗴𝗼𝗹𝗱 𝗺𝗲𝗱𝗮𝗹-𝗹𝗲𝘃𝗲𝗹 𝗽𝗲𝗿𝗳𝗼𝗿𝗺𝗮𝗻𝗰𝗲** in the Physics Olympiad (IPhO), **beating all the models**, including Gemini 2.5 Pro, GPT-5 and Grok 4.*
 
 </div>
 </div>
@@ -152,17 +158,7 @@ Jiacheng Chen<sup style="font-size: 1.1em; position: relative; top: -2px;">*</su
 
 
 
-
-
-
-
-
-
-</div>
-</div>
-
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review</div><img src='images/UniVA.png' alt="D2C" style="width: 100%; height: auto; object-fit: cover; max-height: 200px;"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Tech Report</div><img src='images/UniVA.png' alt="D2C" style="width: 100%; height: auto; object-fit: cover; max-height: 200px;"></div></div>
 <div class='paper-box-text' markdown="1">
 
 
