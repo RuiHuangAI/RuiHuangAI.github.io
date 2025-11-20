@@ -28,14 +28,14 @@ Hello! 👏 I’m a third-year undergraduate student in **[UESTC’s “Everest 
 
 
 
-- *2024.11*: &nbsp;🎉 Honored to participate in [**P1 project**](https://prime-rl.github.io/P1/), a series of models that achieved **𝗴𝗼𝗹𝗱 𝗺𝗲𝗱𝗮𝗹-𝗹𝗲𝘃𝗲𝗹 𝗽𝗲𝗿𝗳𝗼𝗿𝗺𝗮𝗻𝗰𝗲** in the Physics Olympiad (IPhO), **beating all the models**, including Gemini 2.5 Pro, GPT-5 and Grok 4. [**Here is the blog**](https://hf.co/papers/2511.13612)
+- *2025.11*: &nbsp;🎉 Honored to participate in [**P1 project**](https://prime-rl.github.io/P1/), a series of models that achieved **𝗴𝗼𝗹𝗱 𝗺𝗲𝗱𝗮𝗹-𝗹𝗲𝘃𝗲𝗹 𝗽𝗲𝗿𝗳𝗼𝗿𝗺𝗮𝗻𝗰𝗲** in the Physics Olympiad (IPhO), **beating all the models**, including Gemini 2.5 Pro, GPT-5 and Grok 4. [**Here is the blog**](https://hf.co/papers/2511.13612)
 
 
 
-- *2024.11*: &nbsp;🎉 Thrilled to release [**UniVA: Universal Video Agent**](https://univa.online/) — an open-source next-generation video generalist! UniVA features: 1) 🤖 **Unified Agentic System**  2) 🎬 **Powerful Creation**. [**Try the online demo**](https://univa.online/) now! Check the [**paper**](https://arxiv.org/abs/2511.08521). UniVA has been [**reported by AK on X**](https://x.com/_akhaliq/status/1989375188404953524). 
+- *2025.11*: &nbsp;🎉 Thrilled to release [**UniVA: Universal Video Agent**](https://univa.online/) — an open-source next-generation video generalist! UniVA features: 1) 🤖 **Unified Agentic System**  2) 🎬 **Powerful Creation**. [**Try the online demo**](https://univa.online/) now! Check the [**paper**](https://arxiv.org/abs/2511.08521). UniVA has been [**reported by AK on X**](https://x.com/_akhaliq/status/1989375188404953524). 
 
 
-- *2024.10*: &nbsp;🏆 Awarded the **National Scholarship** of 2025.
+- *2025.10*: &nbsp;🏆 Awarded the **National Scholarship** of 2025.
 
 
 - *2025.07*: &nbsp;🎉 Invited to be a reviewer of **AAAI 2026**.
