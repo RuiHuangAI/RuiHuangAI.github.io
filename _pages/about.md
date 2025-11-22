@@ -145,7 +145,7 @@ Ziyu Guo<sup style="font-size: 1.1em; position: relative; top: -2px;">*</sup>, R
 Jiacheng Chen<sup style="font-size: 1.1em; position: relative; top: -2px;">*</sup>, Qianjia Cheng<sup style="font-size: 1.1em; position: relative; top: -2px;">*</sup>, Fangchen Yu<sup style="font-size: 1.1em; position: relative; top: -2px;">*</sup> ........ **Rui Huang** ....... Lei Bai<sup>†</sup>, Yu Cheng<sup>†</sup>, Ning Ding<sup>†</sup>, Bowen Zhou<sup>†</sup>, Peng Ye<sup>†</sup>, Ganqu Cui<sup>†</sup>
 
 
-[**[PDF]**](https://arxiv.org/pdf/2511.13612) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>    [**[HomePage]**](https://prime-rl.github.io/P1/) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong> [**[量子位]**](https://mp.weixin.qq.com/s/CtxBKr1_pVRD1hEiC4GOfw) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong> 
+[**[PDF]**](https://arxiv.org/pdf/2511.13612) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>    [**[HomePage]**](https://prime-rl.github.io/P1/) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong> [**[量子位]**](https://mp.weixin.qq.com/s/VS6cI7EhZRQwZRqMeqTgSg?scene=1&click_id=1) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong> 
 
 
 **TL;DR:** *A series of models that achieved **𝗴𝗼𝗹𝗱 𝗺𝗲𝗱𝗮𝗹-𝗹𝗲𝘃𝗲𝗹 𝗽𝗲𝗿𝗳𝗼𝗿𝗺𝗮𝗻𝗰𝗲** in the Physics Olympiad (IPhO), **beating all the models**, including Gemini 2.5 Pro, GPT-5 and Grok 4.*
