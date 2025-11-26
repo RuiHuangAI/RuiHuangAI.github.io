@@ -32,7 +32,7 @@ Hello! 👏 I’m a third-year undergraduate student in **[UESTC’s “Everest 
 
 
 
-- *2025.11*: &nbsp;🎉 Thrilled to release [**UniVA: Universal Video Agent**](https://univa.online/) — an open-source next-generation video generalist! UniVA features: 1) 🤖 **Unified Agentic System**  2) 🎬 **Powerful Creation**. [**Try the online demo**](https://univa.online/) now! Check the [**paper**](https://arxiv.org/abs/2511.08521). UniVA has been [**reported by AK**](https://x.com/_akhaliq/status/1989375188404953524) and [**新智元**](https://mp.weixin.qq.com/s/66I_b5QkvQoz_OMlKzWFCg)
+- *2025.11*: &nbsp;🎉 Thrilled to release [**UniVA: Universal Video Agent**](https://univa.online/) — an open-source next-generation video generalist! UniVA features: 1) 🤖 **Unified Agentic System**  2) 🎬 **Powerful Creation**. [**Try the online demo**](https://univa.online/) now! Check the [**paper**](https://arxiv.org/abs/2511.08521). UniVA has been [**reported by AK**](https://x.com/_akhaliq/status/1989375188404953524) and [**新智元**](https://mp.weixin.qq.com/s/66I_b5QkvQoz_OMlKzWFCg).
 
 
 - *2025.10*: &nbsp;🏆 Awarded the **National Scholarship** of 2025.
