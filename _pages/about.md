@@ -36,15 +36,15 @@ Hello! 👏 I’m a third-year undergraduate student in **[UESTC’s “Everest 
 - *2025.11*: &nbsp;🎉 Thrilled to release [**UniVA: Universal Video Agent**](https://univa.online/) — an open-source next-generation video generalist! UniVA features: 1) 🤖 **Unified Agentic System**  2) 🎬 **Powerful Creation**. [**Try the online demo**](https://univa.online/) now! Check the [**paper**](https://arxiv.org/abs/2511.08521). UniVA has been [**reported by AK**](https://x.com/_akhaliq/status/1989375188404953524) and [**新智元**](https://mp.weixin.qq.com/s/66I_b5QkvQoz_OMlKzWFCg).
 
 
-- *2025.10*: &nbsp;🏆 Awarded the **𝗡𝗮𝘁𝗶𝗼𝗻𝗮𝗹 𝗦𝗰𝗵𝗼𝗹𝗮𝗿𝘀𝗵𝗶𝗽** of 2025.
+- *2025.10*: &nbsp;🏆 Awarded the **National Scholarship** of 2025.
 
 
-- *2025.07*: &nbsp;🎉 Invited to be a **𝗿𝗲𝘃𝗶𝗲𝘄𝗲𝗿 𝗼𝗳 𝗔𝗔𝗔𝗜 𝟮𝟬𝟮𝟲**.
+- *2025.07*: &nbsp;🎉 Invited to be a **reviewer of AAAI 2026**.
 
 
-- *2025.06*: &nbsp;🏆 Awarded the **𝗦𝗲𝗻𝘀𝗲𝗧𝗶𝗺𝗲 𝗦𝗰𝗵𝗼𝗹𝗮𝗿𝘀𝗵𝗶𝗽 𝟮𝟬𝟮𝟱!** 30 undergraduate students nationwide.
+- *2025.06*: &nbsp;🏆 Awarded the **SenseTime Scholarship 2025!** 30 undergraduate students nationwide.
 
-- *2025.06*: &nbsp;🎉 We pre-released [**Diffusion Dataset Condensation**](https://arxiv.org/abs/2507.05914) on arXiv, **𝗮𝗰𝗰𝗲𝗹𝗲𝗿𝗮𝘁𝗶𝗻𝗴 𝘁𝗵𝗲 𝗽𝗿𝗲-𝘁𝗿𝗮𝗶𝗻𝗶𝗻𝗴 𝗼𝗳 𝗱𝗶𝗳𝗳𝘂𝘀𝗶𝗼𝗻 𝗺𝗼𝗱𝗲𝗹𝘀 𝗯𝘆 𝟭𝟬𝟬𝘅**!!. The entire project used **𝗵𝘂𝗻𝗱𝗿𝗲𝗱𝘀 𝗼𝗳 𝗛𝟭𝟬𝟬/𝗔𝟭𝟬𝟬**!!
+- *2025.06*: &nbsp;🎉 We pre-released [**Diffusion Dataset Condensation**](https://arxiv.org/abs/2507.05914) on arXiv, **accelerating the pre-training of diffusion models by 100x**!!. The entire project used **hundreds of H100/A100**!!
 
 <details markdown="1">
 <summary><b>Show more news ▼</b></summary>
@@ -52,18 +52,18 @@ Hello! 👏 I’m a third-year undergraduate student in **[UESTC’s “Everest 
 - *2025.06*: &nbsp;🎉 One paper has been accepted by [**IEEE Transactions on Industrial Informatics**](https://ieeexplore.ieee.org/abstract/document/11036164)(SCI Q1), completed during my first research internship in AI for smart grid.
 
 
-- *2025.03*: &nbsp;🎉 We released [**CoT Image**](https://arxiv.org/abs/2501.13926), The first to **introduce CoT-style strategies into image generation**, it has attracted widespread attention in the community and received over **𝟴𝟬𝟬+ 𝘀𝘁𝗮𝗿𝘀**!!
+- *2025.03*: &nbsp;🎉 We released [**CoT Image**](https://arxiv.org/abs/2501.13926), The first to **introduce CoT-style strategies into image generation**, it has attracted widespread attention in the community and received over **800+ stars**!!
 
 
-- *2024.12*: &nbsp;🎉 One paper [**Wavelet-Assisted Multi-Frequency Attention Network for Pansharpening**](https://ojs.aaai.org/index.php/AAAI/article/view/32381) has been accepted by **𝗔𝗔𝗔𝗜 𝟮𝟬𝟮𝟱** and selected for **𝗢𝗿𝗮𝗹 𝗣𝗿𝗲𝘀𝗲𝗻𝘁𝗮𝘁𝗶𝗼𝗻**. 
+- *2024.12*: &nbsp;🎉 One paper [**Wavelet-Assisted Multi-Frequency Attention Network for Pansharpening**](https://ojs.aaai.org/index.php/AAAI/article/view/32381) has been accepted by **AAAI 2025** and selected for **Oral Presentation**. 
 
 
-- *2024.10*: &nbsp;🏆 Awarded the **𝗡𝗮𝘁𝗶𝗼𝗻𝗮𝗹 𝗦𝗰𝗵𝗼𝗹𝗮𝗿𝘀𝗵𝗶𝗽** of 2024 and the **𝗚𝗿𝗮𝘁𝗶𝘁𝘂𝗱𝗲 𝗦𝗰𝗵𝗼𝗹𝗮𝗿𝘀𝗵𝗶𝗽 𝗳𝗼𝗿 𝗠𝗼𝗱𝗲𝗿𝗻 𝗦𝗰𝗶𝗲𝗻𝘁𝗶𝘀𝘁𝘀**.
+- *2024.10*: &nbsp;🏆 Awarded the **National Scholarship** of 2024 and the **Gratitude Scholarship for Modern Scientists**.
 
 
 - *2024.09*: &nbsp;🎉 One paper has been accepted by [**IEEE Transactions on Sustainable Energy**](https://ieeexplore.ieee.org/abstract/document/10679087/)(SCI Q1), completed during my first research internship in AI for smart grid.
 
-- *2024.08*: &nbsp;🎉 Delighted to be going to **𝗖𝗮𝗺𝗯𝗿𝗶𝗱𝗴𝗲 𝗮𝘀 𝗮 𝘃𝗶𝘀𝗶𝘁𝗶𝗻𝗴 𝘀𝘁𝘂𝗱𝗲𝗻𝘁**.
+- *2024.08*: &nbsp;🎉 Delighted to be going to **Cambridge as a visiting student**.
 
 - *2023.12*: &nbsp;🌱 The starting point of my academic journey!
 
