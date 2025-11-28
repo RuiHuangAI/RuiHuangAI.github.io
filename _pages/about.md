@@ -26,7 +26,7 @@ Hello! 👏 I’m a third-year undergraduate student in **[UESTC’s “Everest 
 # 🔥 News
 
 
-- *2025.11*: &nbsp;🎉 One paper has been accepted by **IEEE Transactions on Industrial Informatics(SCI Q1)**, which was completed during my first research internship in AI for smart grid in Oct. 2024 and underwent over a year of review. Congratulations!
+- *2025.11*: &nbsp;🎉 One paper has been accepted by **𝗜𝗘𝗘𝗘 𝗧𝗿𝗮𝗻𝘀𝗮𝗰𝘁𝗶𝗼𝗻𝘀 𝗼𝗻 𝗜𝗻𝗱𝘂𝘀𝘁𝗿𝗶𝗮𝗹 𝗜𝗻𝗳𝗼𝗿𝗺𝗮𝘁𝗶𝗰𝘀(𝗦𝗖𝗜 𝗤𝟭)**, which was completed during my first research internship in AI for smart grid in Oct. 2024 and underwent over a year of review. Congratulations!
 
 
 - *2025.11*: &nbsp;🎉 Honored to participate in [**P1 project**](https://prime-rl.github.io/P1/), a series of models that achieved **𝗴𝗼𝗹𝗱 𝗺𝗲𝗱𝗮𝗹-𝗹𝗲𝘃𝗲𝗹 𝗽𝗲𝗿𝗳𝗼𝗿𝗺𝗮𝗻𝗰𝗲** in the Physics Olympiad (IPhO), **beating all the models**, including Gemini 2.5 Pro, GPT-5 and Grok 4. [**Here is the blog**](https://hf.co/papers/2511.13612)
