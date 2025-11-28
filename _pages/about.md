@@ -26,6 +26,7 @@ Hello! 👏 I’m a third-year undergraduate student in **[UESTC’s “Everest 
 # 🔥 News
 
 
+- *2025.11*: &nbsp;🎉 One paper has been accepted by **IEEE Transactions on Industrial Informatics(SCI Q1)**, which was completed during my first research internship in AI for smart grid in Oct. 2024 and underwent over a year of review. Congratulations!
 
 
 - *2025.11*: &nbsp;🎉 Honored to participate in [**P1 project**](https://prime-rl.github.io/P1/), a series of models that achieved **𝗴𝗼𝗹𝗱 𝗺𝗲𝗱𝗮𝗹-𝗹𝗲𝘃𝗲𝗹 𝗽𝗲𝗿𝗳𝗼𝗿𝗺𝗮𝗻𝗰𝗲** in the Physics Olympiad (IPhO), **beating all the models**, including Gemini 2.5 Pro, GPT-5 and Grok 4. [**Here is the blog**](https://hf.co/papers/2511.13612)
@@ -48,19 +49,19 @@ Hello! 👏 I’m a third-year undergraduate student in **[UESTC’s “Everest 
 <details markdown="1">
 <summary><b>Show more news ▼</b></summary>
 
-- *2025.06*: &nbsp;🎉 One paper has been accepted by [**IEEE Transactions on Industrial Informatics**](https://ieeexplore.ieee.org/abstract/document/11036164), completed during my first research internship in AI for smart grid.
+- *2025.06*: &nbsp;🎉 One paper has been accepted by [**IEEE Transactions on Industrial Informatics**](https://ieeexplore.ieee.org/abstract/document/11036164)(SCI Q1), completed during my first research internship in AI for smart grid.
 
 
 - *2025.03*: &nbsp;🎉 We released [**CoT Image**](https://arxiv.org/abs/2501.13926), The first to **introduce CoT-style strategies into image generation**, it has attracted widespread attention in the community and received over **800+ stars**!!
 
 
-- *2024.12*: &nbsp;🎉 Our paper [**Wavelet-Assisted Multi-Frequency Attention Network for Pansharpening**](https://ojs.aaai.org/index.php/AAAI/article/view/32381) has been accepted by **AAAI 2025** and selected for **Oral Presentation**. 
+- *2024.12*: &nbsp;🎉 One paper [**Wavelet-Assisted Multi-Frequency Attention Network for Pansharpening**](https://ojs.aaai.org/index.php/AAAI/article/view/32381) has been accepted by **AAAI 2025** and selected for **Oral Presentation**. 
 
 
 - *2024.10*: &nbsp;🏆 Awarded the **National Scholarship** of 2024 and the **Gratitude Scholarship for Modern Scientists**.
 
 
-- *2024.09*: &nbsp;🎉 One paper has been accepted by [**IEEE Transactions on Sustainable Energy**](https://ieeexplore.ieee.org/abstract/document/10679087/), completed during my first research internship in AI for smart grid.
+- *2024.09*: &nbsp;🎉 One paper has been accepted by [**IEEE Transactions on Sustainable Energy**](https://ieeexplore.ieee.org/abstract/document/10679087/)(SCI Q1), completed during my first research internship in AI for smart grid.
 
 - *2024.08*: &nbsp;🎉 Delighted to be going to **Cambridge as a visiting student**.
 
@@ -175,7 +176,7 @@ Zhengyang Liang<sup style="font-size: 1.1em; position: relative; top: -2px;">*</
 
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review</div><img src='images/COLNet.png' alt="D2C" style="width: 100%; height: auto; object-fit: cover; max-height: 200px;"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE TII</div><img src='images/COLNet.png' alt="D2C" style="width: 100%; height: auto; object-fit: cover; max-height: 200px;"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **Complementary Online Learning Network for Probabilistic Load Forecasting Against Extreme Weather**
