@@ -19,7 +19,7 @@ redirect_from:
 
 #  About Me
 
-Hello! 👏 I’m a third-year undergraduate student in **[UESTC’s “Everest Project”](https://www.uestc.edu.cn/%22%E5%AD%A6%E6%A0%A1%E5%AE%98%E7%BD%91%E2%80%9C)** Computer Top-Talent Experimental Class (2023–2027), majoring in Computer Science. Now, I’m interested in **LLM SFT/RL and reasoning, image/video generation, and unified multimodal models**. Earlier, I explored AI for smart grids and remote-sensing image fusion. You can find my [CV](https://ruihuangai.github.io/files/cv/RuiHuang_CV%2026.2.pdf) here.
+Hello! 👏 I’m a third-year undergraduate student in **[UESTC’s “Everest Project”](https://www.uestc.edu.cn/%22%E5%AD%A6%E6%A0%A1%E5%AE%98%E7%BD%91%E2%80%9C)** Computer Top-Talent Experimental Class (2023–2027), majoring in Computer Science. Now, I’m interested in **LLM SFT/RL and reasoning, image/video generation, and unified multimodal models**. Earlier, I explored AI for smart grids and remote-sensing image fusion. You can find my [CV](https://ruihuangai.github.io/files/cv/RuiHuang_CV%202026.2.pdf) here.
 
 ⭐  I am eager to discuss potential collaborations and am **actively seeking research internship opportunities(industry/academia),including onsite roles**.I ‘m also seeking for **2027 fall PHD position**. Please feel free to contact me via **email**: [huang_rui@std.uestc.edu.cn],[paulafixamiworali@gmail.com] or **WeChat: huangrui_dby** if you are interested.I warmly welcome your message and look forward to connecting!
 
