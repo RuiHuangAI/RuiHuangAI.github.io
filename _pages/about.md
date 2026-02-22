@@ -25,6 +25,8 @@ Hello! 👏 I’m a third-year undergraduate student in **[UESTC’s “Everest 
 
 # 🔥 News
 
+- *2026.02*: &nbsp;🎉 Two papers has been accepted by [**CVPR 2026**].
+
 
 - *2025.11*: &nbsp;🎉 One paper has been accepted by **𝗜𝗘𝗘𝗘 𝗧𝗿𝗮𝗻𝘀𝗮𝗰𝘁𝗶𝗼𝗻𝘀 𝗼𝗻 𝗜𝗻𝗱𝘂𝘀𝘁𝗿𝗶𝗮𝗹 𝗜𝗻𝗳𝗼𝗿𝗺𝗮𝘁𝗶𝗰𝘀(𝗦𝗖𝗜 𝗤𝟭)**, which was completed during my first research internship in AI for smart grid in Oct. 2024 and underwent over a year of review. Congratulations!
 
@@ -48,6 +50,8 @@ Hello! 👏 I’m a third-year undergraduate student in **[UESTC’s “Everest 
 
 <details markdown="1">
 <summary><b>Show more news ▼</b></summary>
+
+
 
 - *2025.06*: &nbsp;🎉 One paper has been accepted by [**IEEE Transactions on Industrial Informatics**](https://ieeexplore.ieee.org/abstract/document/11036164)(SCI Q1), completed during my first research internship in AI for smart grid.
 
@@ -77,7 +81,7 @@ Hello! 👏 I’m a third-year undergraduate student in **[UESTC’s “Everest 
 # 📝 Selected Publications ＆ Preprints [**[Full List]**](https://scholar.google.com/citations?user=Bdam5iQAAAAJ)
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review</div><img src='images/D2C.png' alt="D2C" style="width: 100%; height: auto; object-fit: cover; max-height: 200px;"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2026</div><img src='images/D2C.png' alt="D2C" style="width: 100%; height: auto; object-fit: cover; max-height: 200px;"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [🔥Diffusion Dataset Condensation: Training Your Diffusion Model Faster with Less Data](https://arxiv.org/abs/2507.05914)
@@ -93,7 +97,21 @@ Hello! 👏 I’m a third-year undergraduate student in **[UESTC’s “Everest 
 </div>
 </div>
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2026</div><img src='images/L2P.png' alt="D2C" style="width: 100%; height: auto; object-fit: cover; max-height: 200px;"></div></div>
+<div class='paper-box-text' markdown="1">
 
+🔥Beyond Fixed Formulas: Data-Driven Linear Predictor for Efficient Diffusion Models
+
+Zhirong Shen<sup style="font-size: 1.1em; position: relative; top: -2px;">*</sup> , **Rui Huang**<sup style="font-size: 1.1em; position: relative; top: -2px;">*</sup> , Jiacheng Liu, Chang Zou, Peiliang Cai, Shikang Zheng, Zhengyi Shi, Liang Feng, Linfeng Zhang<sup>†</sup>
+
+
+
+[**[PDF]**] <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong> **[Github]**    <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong> 
+
+**TL;DR:** The paper introduces L²P, a learnable linear predictor that accelerates image and video generation in diffusion models by **7.14×** with improved quality over TaylorSeer and FoCa. It requires minimal data (50 samples) and converges in 20 seconds.
+
+</div>
+</div>
 
 
 
@@ -155,6 +173,21 @@ Jiacheng Chen<sup style="font-size: 1.1em; position: relative; top: -2px;">*</su
 </div>
 
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Tech Report</div><img src='images/P1-VL.png' alt="D2C" style="width: 100%; height: auto; object-fit: cover; max-height: 200px;"></div></div>
+<div class='paper-box-text' markdown="1">
+
+
+[🔥P1-VL:Bridging Visual Perception and Scientific Reasoning in Physics Olympiads](https://prime-rl.github.io/P1-VL/)
+
+Yun Luo<sup style="font-size: 1.1em; position: relative; top: -2px;">*✉†</sup>, Futing Wang<sup style="font-size: 1.1em; position: relative; top: -2px;">*</sup>, Qianjia Cheng<sup style="font-size: 1.1em; position: relative; top: -2px;">*</sup> ........ **Rui Huang** ....... Lei Bai<sup>✉</sup>, Yu Cheng<sup>✉</sup>, Ning Ding<sup>✉</sup>, Bowen Zhou<sup>✉</sup>, Peng Ye<sup>✉</sup>, Ganqu Cui<sup>✉†</sup>
+
+
+[**[PDF]**](https://arxiv.org/abs/2602.09443) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>    [**[HomePage]**](https://prime-rl.github.io/P1-VL/) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong> 
+
+**TL;DR:** An open-source physics VLM (+ PhysicsMinions verifier) that delivers **𝗴𝗼𝗹𝗱-𝗺𝗲𝗱𝗮𝗹-𝗹𝗲𝘃𝗲𝗹** results on HiPhO (12 gold + 1 silver): #3 as a single model (beating Gemini 2.5 Pro, GPT-5, Grok-4) and #2 with agents (surpassing GPT-5.2, only behind Gemini-3-Pro).
+
+</div>
+</div>
 
 
 
