@@ -46,7 +46,6 @@ Hello! 👏 I’m a third-year undergraduate student in **[UESTC’s “Everest 
 
 - *2025.06*: &nbsp;🏆 Awarded the **SenseTime Scholarship 2025!** 30 undergraduate students nationwide.
 
-- *2025.06*: &nbsp;🎉 We pre-released [**Diffusion Dataset Condensation**](https://arxiv.org/abs/2507.05914) on arXiv, **accelerating the pre-training of diffusion models by 100x**!!. The entire project used **hundreds of H100/A100**!!
 
 <details markdown="1">
 <summary><b>Show more news ▼</b></summary>
