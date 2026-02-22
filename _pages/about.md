@@ -25,23 +25,23 @@ Hello! 👏 I’m a third-year undergraduate student in **[UESTC’s “Everest 
 
 # 🔥 News
 
-- *2026.02*: &nbsp;🎉 Two papers has been accepted by **CVPR 2026**.
+- *2026.02*: &nbsp;🎉 Two papers accepted to <span style="font-weight: 900;">CVPR 2026</span>.
 
 
-- *2025.11*: &nbsp;🎉 One paper has been accepted by **𝗜𝗘𝗘𝗘 𝗧𝗿𝗮𝗻𝘀𝗮𝗰𝘁𝗶𝗼𝗻𝘀 𝗼𝗻 𝗜𝗻𝗱𝘂𝘀𝘁𝗿𝗶𝗮𝗹 𝗜𝗻𝗳𝗼𝗿𝗺𝗮𝘁𝗶𝗰𝘀(𝗦𝗖𝗜 𝗤𝟭)**, which was completed during my first research internship in AI for smart grid in Oct. 2024 and underwent over a year of review. Congratulations!
+- *2025.11*: &nbsp;🎉 One paper accepted to **𝗜𝗘𝗘𝗘 𝗧𝗿𝗮𝗻𝘀𝗮𝗰𝘁𝗶𝗼𝗻𝘀 𝗼𝗻 𝗜𝗻𝗱𝘂𝘀𝘁𝗿𝗶𝗮𝗹 𝗜𝗻𝗳𝗼𝗿𝗺𝗮𝘁𝗶𝗰𝘀(𝗦𝗖𝗜 𝗤𝟭)**, which was completed during my first research internship on AI for smart grid (Oct. 2024) and underwent over a year of review.
 
 
-- *2025.11*: &nbsp;🎉 Honored to participate in [**P1 project**](https://prime-rl.github.io/P1/), a series of models that achieved **𝗴𝗼𝗹𝗱 𝗺𝗲𝗱𝗮𝗹-𝗹𝗲𝘃𝗲𝗹 𝗽𝗲𝗿𝗳𝗼𝗿𝗺𝗮𝗻𝗰𝗲** in the Physics Olympiad (IPhO), **𝗯𝗲𝗮𝘁𝗶𝗻𝗴 𝗮𝗹𝗹 𝘁𝗵𝗲 𝗺𝗼𝗱𝗲𝗹𝘀**, including Gemini 2.5 Pro, GPT-5 and Grok 4. [**Here is the blog**](https://hf.co/papers/2511.13612)
+- *2025.11*: &nbsp;🎉 Released [**P1**](https://prime-rl.github.io/P1/), a series of models that achieved **𝗴𝗼𝗹𝗱 𝗺𝗲𝗱𝗮𝗹-𝗹𝗲𝘃𝗲𝗹 𝗽𝗲𝗿𝗳𝗼𝗿𝗺𝗮𝗻𝗰𝗲** in the Physics Olympiad (IPhO), **𝗯𝗲𝗮𝘁𝗶𝗻𝗴 𝗮𝗹𝗹 𝘁𝗵𝗲 𝗺𝗼𝗱𝗲𝗹𝘀**, including Gemini 2.5 Pro, GPT-5 and Grok 4. [**Here is the blog**](https://hf.co/papers/2511.13612)
 
 
 
-- *2025.11*: &nbsp;🎉 Thrilled to release [**UniVA: Universal Video Agent**](https://univa.online/) — an open-source next-generation video generalist! UniVA features: 1) 🤖 **Unified Agentic System**  2) 🎬 **Powerful Creation**. [**Try the online demo**](https://univa.online/) now! Check the [**paper**](https://arxiv.org/abs/2511.08521). UniVA has been [**reported by AK**](https://x.com/_akhaliq/status/1989375188404953524) and [**新智元**](https://mp.weixin.qq.com/s/66I_b5QkvQoz_OMlKzWFCg).
+- *2025.11*: &nbsp;🎉 Released [**UniVA: Universal Video Agent**](https://univa.online/) — an open-source next-generation video generalist! UniVA features: 1) 🤖 **Unified Agentic System**  2) 🎬 **Powerful Creation**. [**Try the online demo**](https://univa.online/) now! Check the [**paper**](https://arxiv.org/abs/2511.08521). UniVA has been [**reported by AK**](https://x.com/_akhaliq/status/1989375188404953524) and [**新智元**](https://mp.weixin.qq.com/s/66I_b5QkvQoz_OMlKzWFCg).
 
 
 - *2025.10*: &nbsp;🏆 Awarded the **National Scholarship** of 2025.
 
 
-- *2025.07*: &nbsp;🎉 Invited to be a **reviewer of AAAI 2026**.
+- *2025.07*: &nbsp;🎉 Invited to server as a **reviewer for AAAI 2026**.
 
 
 - *2025.06*: &nbsp;🏆 Awarded the **SenseTime Scholarship 2025!** 30 undergraduate students nationwide.
@@ -52,19 +52,19 @@ Hello! 👏 I’m a third-year undergraduate student in **[UESTC’s “Everest 
 
 
 
-- *2025.06*: &nbsp;🎉 One paper has been accepted by [**IEEE Transactions on Industrial Informatics**](https://ieeexplore.ieee.org/abstract/document/11036164)(SCI Q1), completed during my first research internship in AI for smart grid.
+- *2025.06*: &nbsp;🎉 One paper accepted to [**IEEE Transactions on Industrial Informatics**](https://ieeexplore.ieee.org/abstract/document/11036164)(SCI Q1), completed during my first research internship in AI for smart grid.
 
 
-- *2025.03*: &nbsp;🎉 We released [**CoT Image**](https://arxiv.org/abs/2501.13926), The first to **introduce CoT-style strategies into image generation**, it has attracted widespread attention in the community and received over **800+ stars**!!
+- *2025.03*: &nbsp;🎉 Released [**CoT Image**](https://arxiv.org/abs/2501.13926). The first to **introduce CoT-style strategies into image generation**, it has attracted widespread attention in the community and received over **800+ stars**!!
 
 
-- *2024.12*: &nbsp;🎉 One paper [**Wavelet-Assisted Multi-Frequency Attention Network for Pansharpening**](https://ojs.aaai.org/index.php/AAAI/article/view/32381) has been accepted by **AAAI 2025** and selected for **Oral Presentation**. 
+- *2024.12*: &nbsp;🎉 One paper accepted to <span style="font-weight: 900;">AAAI 2025</span> and selected for <span style="font-weight: 900;"><span style="color: red;">Oral</span> Presentation</span>. 
 
 
 - *2024.10*: &nbsp;🏆 Awarded the **National Scholarship** of 2024 and the **Gratitude Scholarship for Modern Scientists**.
 
 
-- *2024.09*: &nbsp;🎉 One paper has been accepted by [**IEEE Transactions on Sustainable Energy**](https://ieeexplore.ieee.org/abstract/document/10679087/)(SCI Q1), completed during my first research internship in AI for smart grid.
+- *2024.09*: &nbsp;🎉 One paper accepted to [**IEEE Transactions on Sustainable Energy**](https://ieeexplore.ieee.org/abstract/document/10679087/)(SCI Q1), completed during my first research internship in AI for smart grid.
 
 - *2024.08*: &nbsp;🎉 Delighted to be going to **Cambridge as a visiting student**.
 
