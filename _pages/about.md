@@ -247,19 +247,19 @@ Zhengyang Liang<sup style="font-size: 1.1em; position: relative; top: -2px;">*</
 
 
 # 🏆 Honors
-- [2025] **SenseTime Scholarship（商汤奖学金）** *(award rate <0.1%; 30 undergrads China-wide)* 
-- [2025] **National Scholarship（国家奖学金）** *(top recipient in the college)* 
-- [2024] **National Scholarship（国家奖学金）** *(top recipient in the college)* 
-- [2024] **Gratitude Scholarship for Modern Scientists （感恩中国近现代科学家助学金）** *(top 10 in school)* 
+- [2025] **SenseTime Scholarship** *(award rate <0.1%; 30 undergrads China-wide)* 
+- [2025] **National Scholarship** *(top recipient in the college)* 
+- [2024] **National Scholarship** *(top recipient in the college)* 
+- [2024] **Gratitude Scholarship for Modern Scientists** *(top 10 in school)* 
 - [2024] **Excellence Scholarship — School of Computer Science, UESTC** 
 - [2024] **First-Class Scholarship for Outstanding Students** 
 
 # 🏅 Competition Awards
-- [2025] **National Gold Award — National College Student Career Planning Competition（职规赛国金）🏅** *(award rate <0.1%; first from UESTC to receive this award)* 
-- [2025] **National Silver Award — China International College Students' Innovation Competition （国创赛国银）🥈** 
-- [2025] **Provincial Special Prize — “Challenge Cup” National College Students’ Extracurricular Academic and Technological Works Competition（挑战杯省特）🏅** 
+- [2025] **National Gold Award — National College Student Career Planning Competition🏅** *(award rate <0.1%; first from UESTC to receive this award)* 
+- [2025] **National Silver Award — China International College Students' Innovation Competition🥈** 
+- [2025] **Provincial Special Prize — “Challenge Cup” National College Students’ Extracurricular Academic and Technological Works Competition🏅** 
 - [2024] **National Third Prize — Five-Minute Research Presentation (5MRP) Competition🥉** 
-- [2023] **Provincial First Prize — Huawei ICT Competition🏅（华为ICT省一）** *(rank 2rd in province)* 
+- [2023] **Provincial First Prize — Huawei ICT Competition🏅** *(rank 2rd in province)* 
 
 
 
@@ -277,4 +277,3 @@ Zhengyang Liang<sup style="font-size: 1.1em; position: relative; top: -2px;">*</
 # 🎓 Services
 - Reviewer for **AAAI 2026**
 - Co-Founder of the **UESTC AI Club**
-- Deputy captain for the **“Embrace the Great, Pursue the Subtle” Social Practice Team（“致广大 尽精微”实践队）**
