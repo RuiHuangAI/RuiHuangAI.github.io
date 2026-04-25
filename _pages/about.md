@@ -19,11 +19,14 @@ redirect_from:
 
 #  About Me
 
-Hello! 👏 I’m a third-year undergraduate student in **[UESTC’s “Everest Project”](https://www.uestc.edu.cn/%22%E5%AD%A6%E6%A0%A1%E5%AE%98%E7%BD%91%E2%80%9C)** Computer Top-Talent Experimental Class (2023–2027), majoring in Computer Science. Now, I’m interested in **LLM SFT/RL and reasoning, image/video generation, and unified multimodal models**. Earlier, I explored AI for smart grids and remote-sensing image fusion. You can find my [CV](https://ruihuangai.github.io/files/cv/RuiHuang_CV%202026.2.pdf) here.
+Hello! 👏 I’m a third-year undergraduate student in **[UESTC’s “Everest Project”](https://www.uestc.edu.cn/%22%E5%AD%A6%E6%A0%A1%E5%AE%98%E7%BD%91%E2%80%9C)** Computer Top-Talent Experimental Class (2023–2027), majoring in Computer Science. Now, I’m interested in **LLM SFT/RL and reasoning, image/video generation, and unified multimodal models**. Earlier, I explored AI for smart grids and remote-sensing image fusion. You can find my [CV](/files/cv/Resume_Rui_Huang_04.pdf) here.
 
 ⭐  I am eager to discuss potential collaborations and am **actively seeking research internship opportunities(industry/academia),including onsite roles**.I ‘m also seeking for **2027 fall PHD position**. Please feel free to contact me via **email**: [huang_rui@std.uestc.edu.cn],[paulafixamiworali@gmail.com] or **WeChat: huangrui_dby** if you are interested.I warmly welcome your message and look forward to connecting!
 
 # 🔥 News
+
+- *2026.03*: &nbsp;🎉 Joined <span style="font-weight: 900;">Tencent Hunyuan</span> through the <span style="font-weight: 900;">Qingyun Program</span>.
+
 
 - *2026.02*: &nbsp;🎉 Two papers accepted to <span style="font-weight: 900;">CVPR 2026</span>.
 
@@ -211,12 +214,12 @@ Zhengyang Liang<sup style="font-size: 1.1em; position: relative; top: -2px;">*</
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE Transactions on Industrial Informatics</div><img src='images/COLNet.png' alt="D2C" style="width: 100%; height: auto; object-fit: cover; max-height: 200px;"></div></div>
 <div class='paper-box-text' markdown="1">
 
-**Complementary Online Learning Network for Probabilistic Load Forecasting Against Extreme Weather**
+[**Complementary Online Learning Network for Probabilistic Load Forecasting Against Extreme Weather**](https://ieeexplore.ieee.org/abstract/document/11311384/)
 
 **Rui Huang**, Pengfei Zhao, Di Cao<sup>†</sup>, Weihao Hu, Qi Huang, Zhe Chen
 
 
-**[PDF]** <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>    **[Github]** <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+[**[PDF]**](https://ieeexplore.ieee.org/abstract/document/11311384/) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>    **[Github]** <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 
 **TL;DR:** *Proposed the Complementary Online Learning Network (COLNet) with a **Weather-aware gating mechanism for high precision probabilistic** and point forecasting under extreme weather.*
 
