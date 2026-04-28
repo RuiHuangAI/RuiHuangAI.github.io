@@ -205,9 +205,6 @@
     }
 
     .highlight-box {
-      display: flex;
-      align-items: center;
-      gap: 14px;
       background-color: var(--highlight-bg);
       border-left: 4px solid var(--primary);
       padding: 12px 16px;
@@ -215,54 +212,72 @@
       border-radius: 0 4px 4px 0;
       font-size: 0.95rem;
       color: var(--text-strong);
-      line-height: 1.55;
     }
-    .highlight-box > i {
-      flex-shrink: 0;
+    .highlight-box i { margin-right: 8px; color: var(--primary); }
+
+    /* Inline WeChat trigger — looks like a normal text link */
+    .wechat-btn {
+      font: inherit;
+      cursor: pointer;
+      padding: 0;
+      border: 0;
+      background: none;
       color: var(--primary);
-      margin-top: 4px;
-      font-size: 1rem;
+      text-decoration: none;
+      transition: color 0.2s ease;
     }
-    .highlight-box .highlight-text { flex: 1; min-width: 0; }
-    .highlight-box code {
-      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, monospace;
-      font-size: 0.92em;
-      background: var(--pill-bg);
-      padding: 1px 6px;
-      border-radius: 3px;
-      color: var(--text-strong);
-    }
-    .highlight-box .wechat-qr {
-      flex-shrink: 0;
-      width: 92px;
-      height: auto;
-      border-radius: 6px;
-      border: 1px solid var(--border);
-      background: #ffffff;
-      cursor: zoom-in;
-      transition: transform 0.25s ease, box-shadow 0.25s ease, z-index 0s 0.25s;
-    }
-    .highlight-box .wechat-qr:hover,
-    .highlight-box .wechat-qr:focus {
-      transform: scale(2.8);
-      transform-origin: right center;
-      box-shadow: 0 12px 32px rgba(0, 0, 0, 0.3);
-      position: relative;
-      z-index: 100;
-      transition: transform 0.25s ease, box-shadow 0.25s ease, z-index 0s;
+    .wechat-btn:hover, .wechat-btn:focus-visible {
+      color: var(--link-hover);
+      text-decoration: underline;
       outline: none;
     }
-    @media (max-width: 768px) {
-      .highlight-box { flex-wrap: wrap; }
-      .highlight-box .wechat-qr {
-        width: 78px;
-        margin-left: auto;
-      }
-      .highlight-box .wechat-qr:hover,
-      .highlight-box .wechat-qr:focus {
-        transform: scale(2.5);
-        transform-origin: right top;
-      }
+
+    /* QR modal */
+    .wechat-modal {
+      border: none;
+      border-radius: 12px;
+      padding: 0;
+      background: var(--bg);
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.4);
+      max-width: 90vw;
+      max-height: 90vh;
+      overflow: visible;
+    }
+    .wechat-modal::backdrop {
+      background: rgba(0, 0, 0, 0.55);
+      backdrop-filter: blur(4px);
+      -webkit-backdrop-filter: blur(4px);
+    }
+    .wechat-modal .qr-card {
+      display: block;
+      width: 360px;
+      max-width: 100%;
+      height: auto;
+      border-radius: 12px;
+      background: #ffffff;
+    }
+    .wechat-modal .modal-close {
+      position: absolute;
+      top: -14px;
+      right: -14px;
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      border: none;
+      background: #ffffff;
+      color: #333;
+      font-size: 1.4rem;
+      line-height: 1;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 10;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+      transition: transform 0.2s ease;
+    }
+    .wechat-modal .modal-close:hover {
+      transform: rotate(90deg);
     }
 
     .profile-image-container {
@@ -763,13 +778,14 @@
           <a href="files/cv/Resume_Rui_Huang_04.pdf" target="_blank" rel="noopener"><i class="far fa-file-pdf"></i> CV</a>
         </div>
 
+        <!--
+          Highlight box hidden for now (no specific call-to-action). Uncomment and edit
+          when you want to advertise a specific opening, looking-for note, or interest.
         <div class="highlight-box">
-          <i class="fas fa-comment-dots" aria-hidden="true"></i>
-          <div class="highlight-text">
-            If you're interested in my research or would like to chat, feel free to drop me an <a href="mailto:huang_rui@std.uestc.edu.cn">email</a> or WeChat: <code>why618188</code>.
-          </div>
-          <img src="images/wechat-qr.jpg" alt="WeChat QR code for why618188" class="wechat-qr" title="Hover to enlarge — scan to add me on WeChat" tabindex="0">
+          <i class="fas fa-bullhorn"></i>
+          Working on <b>LLM SFT/RL &amp; reasoning</b>, <b>image &amp; video generation</b>, and <b>unified multimodal models</b>. Always happy to discuss research collaborations.
         </div>
+        -->
 
       </div>
 
@@ -785,6 +801,8 @@
     <section>
       <h2 id="biography" class="section-title">Biography</h2>
       <p>I am a third-year undergraduate student in the <a href="https://www.uestc.edu.cn/" target="_blank" rel="noopener">Everest Project</a> Computer Top-Talent Experimental Class at <strong>UESTC</strong> (2023&ndash;2027), majoring in Computer Science (ranked 1/164 in major). I am currently a research intern at <strong>Tencent Hunyuan</strong>, working with <a href="https://p2333.github.io/" target="_blank" rel="noopener">Tianyu Pang</a> on Multimodal Reinforcement Learning. My research interests are <strong>Multimodal RL</strong>, <strong>Agentic AI</strong>, and <strong>World Models</strong>. Earlier, I also worked on AI for smart grids and remote-sensing image fusion.</p>
+
+      <p>👋 If you're interested in my research or just want to chat, feel free to reach out by <a href="mailto:huang_rui@std.uestc.edu.cn">email</a> or <button type="button" class="wechat-btn" onclick="document.getElementById('wechat-modal').showModal()">WeChat</button>.</p>
     </section>
 
     <!-- ============ News ============ -->
@@ -792,7 +810,6 @@
       <h2 id="news" class="section-title">News</h2>
       <div class="news-scroll" tabindex="0" aria-label="News, scrollable list">
         <ul class="news-list">
-          <li><span class="news-date">2026/03</span> Joined <strong>Tencent Hunyuan</strong>.</li>
           <li><span class="news-date">2026/02</span> Two papers ( <em>D&sup2;C</em> and <em>L&sup2;P</em> ) accepted to <strong>CVPR 2026</strong>.</li>
           <li><span class="news-date">2025/11</span> Released <a href="https://prime-rl.github.io/P1/" target="_blank" rel="noopener"><strong>P1</strong></a> &mdash; gold-medal-level performance on the International Physics Olympiad (IPhO), beating Gemini 2.5 Pro, GPT-5, and Grok 4. <a href="https://hf.co/papers/2511.13612" target="_blank" rel="noopener">Blog</a>.</li>
           <li><span class="news-date">2025/11</span> Released <a href="https://univa.online/" target="_blank" rel="noopener"><strong>UniVA</strong></a> &mdash; an open-source agentic framework that unifies video understanding, editing, and generation. <a href="https://arxiv.org/abs/2511.08521" target="_blank" rel="noopener">Paper</a>. Reported by <a href="https://x.com/_akhaliq/status/1989375188404953524" target="_blank" rel="noopener">AK</a>.</li>
@@ -1085,6 +1102,12 @@
       </ul>
     </section>
 
+    <!-- WeChat QR modal (opened by .wechat-btn) -->
+    <dialog id="wechat-modal" class="wechat-modal" aria-label="WeChat QR code">
+      <button type="button" class="modal-close" onclick="this.closest('dialog').close()" aria-label="Close">&times;</button>
+      <img src="images/wechat-qr.jpg" alt="WeChat QR code — scan to add me" class="qr-card">
+    </dialog>
+
     <footer class="site-footer">
       <p>&copy; <span id="year"></span> Rui Huang &middot; Built with <a href="https://github.com/XY-Showing/pageclaw" target="_blank" rel="noopener">PageClaw</a>.</p>
     </footer>
@@ -1093,6 +1116,18 @@
 
   <script>
     document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Close WeChat modal when clicking on the backdrop (outside the dialog box)
+    (function setupModalBackdropClose() {
+      var modal = document.getElementById('wechat-modal');
+      if (!modal) return;
+      modal.addEventListener('click', function (e) {
+        var rect = modal.getBoundingClientRect();
+        var inside = e.clientX >= rect.left && e.clientX <= rect.right &&
+                     e.clientY >= rect.top && e.clientY <= rect.bottom;
+        if (!inside) modal.close();
+      });
+    })();
 
     // Auto-fetch live GitHub stars (no auth required, ~60 req/hour per IP — fine)
     (function fetchStars() {
