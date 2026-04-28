@@ -205,6 +205,9 @@
     }
 
     .highlight-box {
+      display: flex;
+      align-items: center;
+      gap: 14px;
       background-color: var(--highlight-bg);
       border-left: 4px solid var(--primary);
       padding: 12px 16px;
@@ -212,8 +215,55 @@
       border-radius: 0 4px 4px 0;
       font-size: 0.95rem;
       color: var(--text-strong);
+      line-height: 1.55;
     }
-    .highlight-box i { margin-right: 8px; color: var(--primary); }
+    .highlight-box > i {
+      flex-shrink: 0;
+      color: var(--primary);
+      margin-top: 4px;
+      font-size: 1rem;
+    }
+    .highlight-box .highlight-text { flex: 1; min-width: 0; }
+    .highlight-box code {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, monospace;
+      font-size: 0.92em;
+      background: var(--pill-bg);
+      padding: 1px 6px;
+      border-radius: 3px;
+      color: var(--text-strong);
+    }
+    .highlight-box .wechat-qr {
+      flex-shrink: 0;
+      width: 92px;
+      height: auto;
+      border-radius: 6px;
+      border: 1px solid var(--border);
+      background: #ffffff;
+      cursor: zoom-in;
+      transition: transform 0.25s ease, box-shadow 0.25s ease, z-index 0s 0.25s;
+    }
+    .highlight-box .wechat-qr:hover,
+    .highlight-box .wechat-qr:focus {
+      transform: scale(2.8);
+      transform-origin: right center;
+      box-shadow: 0 12px 32px rgba(0, 0, 0, 0.3);
+      position: relative;
+      z-index: 100;
+      transition: transform 0.25s ease, box-shadow 0.25s ease, z-index 0s;
+      outline: none;
+    }
+    @media (max-width: 768px) {
+      .highlight-box { flex-wrap: wrap; }
+      .highlight-box .wechat-qr {
+        width: 78px;
+        margin-left: auto;
+      }
+      .highlight-box .wechat-qr:hover,
+      .highlight-box .wechat-qr:focus {
+        transform: scale(2.5);
+        transform-origin: right top;
+      }
+    }
 
     .profile-image-container {
       flex-shrink: 0;
@@ -713,14 +763,13 @@
           <a href="files/cv/Resume_Rui_Huang_04.pdf" target="_blank" rel="noopener"><i class="far fa-file-pdf"></i> CV</a>
         </div>
 
-        <!--
-          Highlight box hidden for now (no specific call-to-action). Uncomment and edit
-          when you want to advertise a specific opening, looking-for note, or interest.
         <div class="highlight-box">
-          <i class="fas fa-bullhorn"></i>
-          Working on <b>LLM SFT/RL &amp; reasoning</b>, <b>image &amp; video generation</b>, and <b>unified multimodal models</b>. Always happy to discuss research collaborations.
+          <i class="fas fa-comment-dots" aria-hidden="true"></i>
+          <div class="highlight-text">
+            If you're interested in my research or would like to chat, feel free to drop me an <a href="mailto:huang_rui@std.uestc.edu.cn">email</a> or WeChat: <code>why618188</code>.
+          </div>
+          <img src="images/wechat-qr.jpg" alt="WeChat QR code for why618188" class="wechat-qr" title="Hover to enlarge — scan to add me on WeChat" tabindex="0">
         </div>
-        -->
 
       </div>
 
