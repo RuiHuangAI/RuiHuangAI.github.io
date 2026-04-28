@@ -1,0 +1,1070 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rui Huang | UESTC</title>
+  <meta name="description" content="Rui Huang — undergraduate researcher at UESTC, currently at Tencent Hunyuan. Research on multimodal models, diffusion, LLM reasoning.">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Merriweather:ital,wght@0,300;0,700;1,300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <script>
+    (function () {
+      try {
+        var saved = localStorage.getItem('theme');
+        var prefers = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+        document.documentElement.setAttribute('data-theme', saved || prefers);
+      } catch (e) {}
+    })();
+  </script>
+
+  <style>
+    :root {
+      --bg: #ffffff;
+      --bg-elev: #f9f9f9;
+      --text: #333333;
+      --text-muted: #666666;
+      --text-strong: #1a1a1a;
+      --primary: #0056b3;
+      --accent: #d82644;
+      --link-hover: #b32424;
+      --border: #eeeeee;
+      --border-dashed: #e6e6e6;
+      --pill-bg: #f0f2f5;
+      --pill-bg-hover: #ffffff;
+      --pill-news-bg: #eef4fa;
+      --shadow-avatar: 0 8px 24px rgba(0, 0, 0, 0.12);
+      --shadow-card: 0 4px 10px rgba(0, 0, 0, 0.08);
+      --shadow-pill: 0 4px 6px rgba(0, 0, 0, 0.05);
+      --highlight-bg: #f0f7ff;
+      --avatar-ring: #ffffff;
+    }
+
+    :root[data-theme="dark"] {
+      --bg: #0f1115;
+      --bg-elev: #171a21;
+      --text: #d4d6db;
+      --text-muted: #9ca3af;
+      --text-strong: #f3f4f6;
+      --primary: #5aa9ff;
+      --accent: #ff6b7a;
+      --link-hover: #ffb1bb;
+      --border: #262a33;
+      --border-dashed: #2a2f38;
+      --pill-bg: #1f242d;
+      --pill-bg-hover: #262c36;
+      --pill-news-bg: #0f2030;
+      --shadow-avatar: 0 8px 24px rgba(0, 0, 0, 0.5);
+      --shadow-card: 0 4px 10px rgba(0, 0, 0, 0.3);
+      --shadow-pill: 0 4px 6px rgba(0, 0, 0, 0.2);
+      --highlight-bg: #0f1f33;
+      --avatar-ring: #1c2029;
+    }
+
+    * { box-sizing: border-box; }
+
+    html, body {
+      background-color: var(--bg);
+      color: var(--text);
+      transition: background-color 0.2s ease, color 0.2s ease;
+    }
+
+    body {
+      font-family: 'Lato', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      font-size: 16px;
+      line-height: 1.7;
+      margin: 0;
+      padding: 0;
+    }
+
+    h1, h2, h3 {
+      font-family: 'Merriweather', Georgia, serif;
+      font-weight: 700;
+      color: var(--text-strong);
+    }
+
+    a {
+      color: var(--primary);
+      text-decoration: none;
+      transition: color 0.2s ease;
+    }
+
+    a:hover, a:focus-visible {
+      color: var(--link-hover);
+      text-decoration: underline;
+      outline: none;
+    }
+
+    a:focus-visible {
+      outline: 2px solid var(--primary);
+      outline-offset: 2px;
+      border-radius: 2px;
+    }
+
+    .container {
+      max-width: 960px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    /* ===== Theme toggle ===== */
+    .theme-toggle {
+      position: fixed;
+      top: 16px;
+      right: 16px;
+      z-index: 50;
+      width: 38px;
+      height: 38px;
+      border-radius: 50%;
+      border: 1px solid var(--border);
+      background: var(--bg-elev);
+      color: var(--text-strong);
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.95rem;
+      transition: transform 0.2s ease, background 0.2s ease, border-color 0.2s ease;
+    }
+    .theme-toggle:hover {
+      transform: rotate(15deg);
+      border-color: var(--primary);
+    }
+    .theme-toggle .fa-sun { display: none; }
+    :root[data-theme="dark"] .theme-toggle .fa-sun { display: inline; }
+    :root[data-theme="dark"] .theme-toggle .fa-moon { display: none; }
+
+    /* ===== Header ===== */
+    .profile-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 50px;
+      margin-bottom: 60px;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 50px;
+    }
+
+    .bio-text { flex: 1; min-width: 0; }
+
+    .bio-text h1 {
+      font-size: 2.8rem;
+      margin: 0 0 10px 0;
+      letter-spacing: -0.5px;
+      line-height: 1.1;
+    }
+
+    .role-title {
+      font-size: 1.05rem;
+      margin-bottom: 14px;
+      line-height: 1.6;
+    }
+    .role-title b { color: var(--text-strong); }
+    .role-title .muted { color: var(--text-muted); }
+
+    .contact-info {
+      font-size: 0.98rem;
+      color: var(--text-muted);
+      margin-bottom: 16px;
+    }
+
+    .social-links {
+      margin-top: 22px;
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+
+    .social-links a {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: var(--pill-bg);
+      padding: 8px 14px;
+      border-radius: 50px;
+      font-size: 0.88rem;
+      color: var(--text);
+      font-weight: 600;
+      border: 1px solid transparent;
+      transition: all 0.2s ease;
+    }
+    .social-links a:hover, .social-links a:focus-visible {
+      background: var(--pill-bg-hover);
+      border-color: var(--border);
+      color: var(--primary);
+      transform: translateY(-2px);
+      box-shadow: var(--shadow-pill);
+      text-decoration: none;
+    }
+
+    .highlight-box {
+      background-color: var(--highlight-bg);
+      border-left: 4px solid var(--primary);
+      padding: 12px 16px;
+      margin-top: 22px;
+      border-radius: 0 4px 4px 0;
+      font-size: 0.95rem;
+      color: var(--text-strong);
+    }
+    .highlight-box i { margin-right: 8px; color: var(--primary); }
+
+    .profile-image-container {
+      flex-shrink: 0;
+      width: 240px;
+      height: 240px;
+    }
+
+    .profile-photo {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 50%;
+      box-shadow: var(--shadow-avatar);
+      border: 4px solid var(--avatar-ring);
+    }
+
+    /* ===== Section titles ===== */
+    .section-title {
+      border-bottom: 2px solid var(--border);
+      padding-bottom: 10px;
+      margin-top: 60px;
+      margin-bottom: 26px;
+      font-size: 1.6rem;
+      position: relative;
+    }
+    .section-title::after {
+      content: '';
+      position: absolute;
+      bottom: -2px;
+      left: 0;
+      width: 60px;
+      height: 2px;
+      background-color: var(--accent);
+    }
+
+    section p { margin: 0 0 1em 0; }
+
+    /* ===== News (scrollable container) ===== */
+    .news-scroll {
+      max-height: 320px;
+      overflow-y: auto;
+      padding: 14px 18px 14px 18px;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      background: var(--bg-elev);
+      scrollbar-width: thin;
+      scrollbar-color: var(--border) transparent;
+      mask-image: linear-gradient(to bottom, black calc(100% - 28px), transparent 100%);
+      -webkit-mask-image: linear-gradient(to bottom, black calc(100% - 28px), transparent 100%);
+    }
+    .news-scroll::-webkit-scrollbar {
+      width: 6px;
+    }
+    .news-scroll::-webkit-scrollbar-track {
+      background: transparent;
+    }
+    .news-scroll::-webkit-scrollbar-thumb {
+      background: var(--border);
+      border-radius: 3px;
+    }
+    .news-scroll::-webkit-scrollbar-thumb:hover {
+      background: var(--primary);
+    }
+    .news-list {
+      list-style: none;
+      padding-left: 0;
+      margin: 0;
+    }
+    .news-list li {
+      margin-bottom: 12px;
+      line-height: 1.65;
+      font-size: 0.95rem;
+    }
+    .news-list li:last-child {
+      margin-bottom: 18px;
+    }
+    .news-date {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, monospace;
+      background: var(--pill-news-bg);
+      color: var(--primary);
+      padding: 2px 8px;
+      border-radius: 4px;
+      margin-right: 10px;
+      font-size: 0.82rem;
+      font-weight: 700;
+      white-space: nowrap;
+      vertical-align: 1px;
+    }
+    /* Inline warm highlight for milestone keywords (Oral, scholarship name, etc.) */
+    .news-hl {
+      color: #c2410c;
+      font-weight: 700;
+    }
+    :root[data-theme="dark"] .news-hl {
+      color: #fdba74;
+    }
+
+    /* ===== Experience / list items ===== */
+    .item-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    .item-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 24px;
+      margin-bottom: 18px;
+      padding-bottom: 18px;
+      border-bottom: 1px dashed var(--border-dashed);
+    }
+    .item-row:last-child { border-bottom: none; padding-bottom: 0; margin-bottom: 0; }
+    /* Featured (most prestigious) honor row — warm orange accent */
+    .item-row.featured {
+      position: relative;
+      padding: 12px 16px 14px 16px;
+      margin: 0 -16px 18px -16px;
+      background: linear-gradient(to right, #fff5ec 0%, transparent 70%);
+      border-radius: 6px;
+      border-bottom: 1px dashed var(--border-dashed);
+    }
+    :root[data-theme="dark"] .item-row.featured {
+      background: linear-gradient(to right, #2a1a10 0%, transparent 70%);
+    }
+    .item-row.featured::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 12px;
+      bottom: 14px;
+      width: 3px;
+      background: #ea580c;
+      border-radius: 2px;
+    }
+    :root[data-theme="dark"] .item-row.featured::before {
+      background: #fb923c;
+    }
+    .item-row.featured .item-detail strong {
+      color: #c2410c;
+      font-size: 1.08rem;
+    }
+    :root[data-theme="dark"] .item-row.featured .item-detail strong {
+      color: #fdba74;
+    }
+    /* Collapsible section (e.g., Competition Awards) */
+    .section-collapsible details > summary {
+      list-style: none;
+      cursor: pointer;
+      outline: none;
+    }
+    .section-collapsible details > summary::-webkit-details-marker { display: none; }
+    .section-collapsible details > summary > h2 {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+    }
+    .section-collapsible details > summary > h2 .toggle {
+      font-size: 0.65em;
+      color: var(--text-muted);
+      transition: transform 0.25s ease, color 0.2s ease;
+    }
+    .section-collapsible details[open] > summary > h2 .toggle {
+      transform: rotate(90deg);
+      color: var(--primary);
+    }
+    .section-collapsible details > summary:hover > h2 .toggle {
+      color: var(--primary);
+    }
+    .section-collapsible details > summary:focus-visible > h2 {
+      outline: 2px solid var(--primary);
+      outline-offset: 4px;
+      border-radius: 2px;
+    }
+    /* Compact item rows: title + muted detail on the same line (saves vertical space) */
+    .item-list.compact .item-row {
+      align-items: baseline;
+      margin-bottom: 12px;
+      padding-bottom: 12px;
+    }
+    .item-list.compact .item-detail strong {
+      display: inline;
+      margin: 0;
+    }
+    .item-list.compact .item-detail strong + .muted {
+      display: inline;
+      margin-left: 4px;
+      font-size: 0.92rem;
+    }
+    .item-list.compact .item-detail strong + .muted::before {
+      content: ' · ';
+      color: var(--text-muted);
+      font-weight: 400;
+      margin-right: 4px;
+    }
+    .item-detail { flex: 1; min-width: 0; }
+
+    /* Experience logos */
+    .item-row.with-logo {
+      align-items: center;
+    }
+    .item-logo {
+      flex-shrink: 0;
+      width: 76px;
+      height: 76px;
+      border-radius: 10px;
+      background: var(--bg);
+      border: 1px solid var(--border);
+      padding: 8px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      transition: border-color 0.2s ease, transform 0.2s ease;
+    }
+    .item-logo img {
+      max-width: 100%;
+      max-height: 100%;
+      object-fit: contain;
+    }
+    .item-row.with-logo:hover .item-logo {
+      border-color: var(--primary);
+      transform: scale(1.04);
+    }
+    :root[data-theme="dark"] .item-logo {
+      background: #ffffff;
+    }
+
+    /* Highlighted program/affiliation tag (e.g., Qingyun Program) */
+    .program-tag {
+      display: inline-block;
+      font-family: 'Lato', sans-serif;
+      font-weight: 700;
+      font-size: 0.78rem;
+      letter-spacing: 0.4px;
+      text-transform: uppercase;
+      color: #ffffff;
+      background: linear-gradient(135deg, #d82644 0%, #ff7547 100%);
+      padding: 2px 9px;
+      border-radius: 4px;
+      vertical-align: 2px;
+      margin-left: 4px;
+      box-shadow: 0 1px 3px rgba(216, 38, 68, 0.25);
+    }
+    :root[data-theme="dark"] .program-tag {
+      background: linear-gradient(135deg, #ff6b7a 0%, #ffa06b 100%);
+      color: #1a1a1a;
+      box-shadow: 0 1px 3px rgba(255, 107, 122, 0.35);
+    }
+
+    .item-detail strong {
+      display: block;
+      font-size: 1.05rem;
+      color: var(--text-strong);
+      margin-bottom: 4px;
+    }
+    .item-detail span.line {
+      display: block;
+      color: var(--text);
+      font-size: 0.95rem;
+    }
+    .item-detail span.muted {
+      color: var(--text-muted);
+      font-size: 0.92rem;
+    }
+    .item-date {
+      flex-shrink: 0;
+      text-align: right;
+      min-width: 150px;
+      color: var(--text-muted);
+      font-feature-settings: "tnum";
+      font-size: 0.92rem;
+    }
+
+    /* ===== Publications ===== */
+    .pub-caption {
+      font-size: 0.88rem;
+      color: var(--text-muted);
+      margin-bottom: 26px;
+    }
+    .publication {
+      display: flex;
+      gap: 24px;
+      margin-bottom: 36px;
+      align-items: flex-start;
+    }
+    .publogo {
+      width: 180px;
+      height: 120px;
+      border-radius: 6px;
+      box-shadow: var(--shadow-card);
+      flex-shrink: 0;
+      object-fit: cover;
+      border: 1px solid var(--border);
+      transition: transform 0.2s;
+      background: var(--bg-elev);
+    }
+    .publication:hover .publogo {
+      transform: scale(1.02);
+    }
+    .pub-content { flex: 1; min-width: 0; }
+    .pub-title {
+      font-family: 'Merriweather', Georgia, serif;
+      font-weight: 700;
+      font-size: 1.08rem;
+      color: var(--text-strong);
+      display: block;
+      margin-bottom: 6px;
+      line-height: 1.4;
+    }
+    .pub-title:hover { color: var(--primary); text-decoration: none; }
+    .pub-authors {
+      color: var(--text);
+      margin: 6px 0;
+      font-size: 0.95rem;
+      line-height: 1.55;
+    }
+    .pub-authors b { color: var(--text-strong); }
+    .pub-venue {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: baseline;
+      gap: 8px;
+      margin: 5px 0 7px 0;
+      font-size: 1rem;
+      font-weight: 700;
+      color: var(--text-strong);
+      letter-spacing: 0.2px;
+    }
+    /* Tech reports / arXiv: muted gray (not peer-reviewed) */
+    .pub-venue.venue-preprint {
+      color: var(--text-muted);
+      font-style: italic;
+      font-weight: 600;
+    }
+    /* Inline accolade text (Oral / Spotlight / Highlight / Best Paper) */
+    .venue-award {
+      color: var(--accent);
+      font-weight: 800;
+      letter-spacing: 0.3px;
+    }
+    .venue-award::before {
+      content: '· ';
+      color: var(--text-muted);
+      margin-right: 2px;
+      font-weight: 400;
+    }
+    /* Quality tier (e.g. SCI Q1, IF 10.2) — outline pill, neutral */
+    .venue-tag {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      font-size: 0.78rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.4px;
+      padding: 2px 9px;
+      border-radius: 4px;
+      line-height: 1.5;
+      white-space: nowrap;
+    }
+    .venue-tag.tier {
+      color: var(--text);
+      background: var(--pill-bg);
+      border: 1px solid var(--border);
+    }
+    .pub-tldr {
+      color: var(--text-muted);
+      font-size: 0.92rem;
+      font-style: italic;
+      margin: 6px 0 0 0;
+    }
+    .pub-links {
+      margin-top: 10px;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 14px;
+    }
+    .pub-links a {
+      display: inline-flex;
+      align-items: center;
+      font-size: 0.82rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.4px;
+    }
+    .pub-links a i { margin-right: 4px; }
+    .pub-stat {
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      font-size: 0.78rem;
+      font-weight: 700;
+      color: var(--text-muted);
+      background: var(--pill-bg);
+      padding: 2px 9px;
+      border-radius: 50px;
+      letter-spacing: 0.2px;
+      font-feature-settings: "tnum";
+      transition: background 0.2s ease;
+    }
+    .pub-stat[data-stars] i { color: #d9a300; }
+    .pub-stat[data-cite] i { color: var(--primary); }
+    .pub-stat .stat-value { font-weight: 700; color: var(--text); }
+    .pub-stat[data-empty="true"] { display: none; }
+
+    .compact-pub {
+      padding: 16px 0;
+      border-top: 1px dashed var(--border-dashed);
+    }
+    .compact-pub:last-child { border-bottom: 1px dashed var(--border-dashed); }
+    .compact-pub .pub-title { font-size: 1rem; }
+
+    /* ===== Footer ===== */
+    .site-footer {
+      margin-top: 80px;
+      padding: 30px 0 24px 0;
+      border-top: 1px solid var(--border);
+      text-align: center;
+      color: var(--text-muted);
+      font-size: 0.85rem;
+    }
+    .site-footer a { color: var(--text-muted); }
+    .site-footer a:hover { color: var(--primary); }
+
+    /* ===== Responsive ===== */
+    @media (max-width: 768px) {
+      .container { margin: 24px auto; }
+      .profile-header {
+        flex-direction: column-reverse;
+        text-align: center;
+        gap: 26px;
+        padding-bottom: 36px;
+        margin-bottom: 40px;
+      }
+      .bio-text h1 { font-size: 2.1rem; }
+      .role-title { font-size: 1rem; }
+      .social-links { justify-content: center; }
+      .highlight-box { text-align: left; }
+      .profile-image-container { width: 180px; height: 180px; }
+
+      .section-title { font-size: 1.4rem; margin-top: 50px; }
+
+      .publication {
+        flex-direction: column;
+        align-items: stretch;
+      }
+      .publogo {
+        width: 100%;
+        height: 180px;
+        max-width: none;
+      }
+      .item-row {
+        flex-direction: column;
+        gap: 6px;
+      }
+      .item-date { text-align: left; min-width: 0; margin-top: 2px; }
+
+      .theme-toggle { top: 10px; right: 10px; width: 36px; height: 36px; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after {
+        transition: none !important;
+        animation: none !important;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <button class="theme-toggle" type="button" aria-label="Toggle dark mode" onclick="(function(){var r=document.documentElement;var n=r.getAttribute('data-theme')==='dark'?'light':'dark';r.setAttribute('data-theme',n);try{localStorage.setItem('theme',n);}catch(e){}})()">
+    <i class="fas fa-moon" aria-hidden="true"></i>
+    <i class="fas fa-sun" aria-hidden="true"></i>
+  </button>
+
+  <div class="container">
+
+    <!-- ============ Header ============ -->
+    <header class="profile-header">
+      <div class="bio-text">
+        <h1>RUI HUANG</h1>
+        <div class="role-title">
+          <b>B.Eng. Student in Computer Science</b><br>
+          Everest Project, University of Electronic Science and Technology of China
+        </div>
+
+        <div class="contact-info">
+          Email: <a href="mailto:huang_rui@std.uestc.edu.cn">huang_rui@std.uestc.edu.cn</a>
+        </div>
+
+        <div class="social-links">
+          <a href="https://scholar.google.com/citations?user=Bdam5iQAAAAJ" target="_blank" rel="noopener"><i class="fas fa-graduation-cap"></i> Google Scholar</a>
+          <a href="https://github.com/RuiHuangAI" target="_blank" rel="noopener"><i class="fab fa-github"></i> GitHub</a>
+          <a href="https://www.linkedin.com/in/锐-黄-b48275349" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i> LinkedIn</a>
+          <a href="files/cv/Resume_Rui_Huang_04.pdf" target="_blank" rel="noopener"><i class="far fa-file-pdf"></i> CV</a>
+        </div>
+
+        <!--
+          Highlight box hidden for now (no specific call-to-action). Uncomment and edit
+          when you want to advertise a specific opening, looking-for note, or interest.
+        <div class="highlight-box">
+          <i class="fas fa-bullhorn"></i>
+          Working on <b>LLM SFT/RL &amp; reasoning</b>, <b>image &amp; video generation</b>, and <b>unified multimodal models</b>. Always happy to discuss research collaborations.
+        </div>
+        -->
+
+      </div>
+
+      <div class="profile-image-container">
+        <img src="images/RuiHuang.png"
+             alt="Rui Huang portrait"
+             class="profile-photo"
+             onerror="this.src='https://placehold.co/600x600/e0e0e0/555?text=Rui+Huang'">
+      </div>
+    </header>
+
+    <!-- ============ Biography ============ -->
+    <section>
+      <h2 id="biography" class="section-title">Biography</h2>
+      <p>I am a third-year undergraduate student in the <a href="https://www.uestc.edu.cn/" target="_blank" rel="noopener">Everest Project</a> Computer Top-Talent Experimental Class at <strong>UESTC</strong> (2023&ndash;2027), majoring in Computer Science (ranked 1/164 in major). I am currently a research intern at <strong>Tencent Hunyuan</strong>, working with <a href="https://p2333.github.io/" target="_blank" rel="noopener">Tianyu Pang</a> on Multimodal Reinforcement Learning. My research interests are <strong>Multimodal RL</strong>, <strong>Agentic AI</strong>, and <strong>World Models</strong>. Earlier, I also worked on AI for smart grids and remote-sensing image fusion.</p>
+    </section>
+
+    <!-- ============ News ============ -->
+    <section>
+      <h2 id="news" class="section-title">News</h2>
+      <div class="news-scroll" tabindex="0" aria-label="News, scrollable list">
+        <ul class="news-list">
+          <li><span class="news-date">2026/03</span> Joined <strong>Tencent Hunyuan</strong>.</li>
+          <li><span class="news-date">2026/02</span> Two papers ( <em>D&sup2;C</em> and <em>L&sup2;P</em> ) accepted to <strong>CVPR 2026</strong>.</li>
+          <li><span class="news-date">2025/11</span> Released <a href="https://prime-rl.github.io/P1/" target="_blank" rel="noopener"><strong>P1</strong></a> &mdash; gold-medal-level performance on the International Physics Olympiad (IPhO), beating Gemini 2.5 Pro, GPT-5, and Grok 4. <a href="https://hf.co/papers/2511.13612" target="_blank" rel="noopener">Blog</a>.</li>
+          <li><span class="news-date">2025/11</span> Released <a href="https://univa.online/" target="_blank" rel="noopener"><strong>UniVA</strong></a> &mdash; an open-source agentic framework that unifies video understanding, editing, and generation. <a href="https://arxiv.org/abs/2511.08521" target="_blank" rel="noopener">Paper</a>. Reported by <a href="https://x.com/_akhaliq/status/1989375188404953524" target="_blank" rel="noopener">AK</a>.</li>
+          <li><span class="news-date">2025/11</span> One paper accepted to <a href="https://ieeexplore.ieee.org/abstract/document/11311384/" target="_blank" rel="noopener">IEEE Transactions on Industrial Informatics</a> (SCI Q1).</li>
+          <li><span class="news-date">2025/10</span> Awarded the <strong>National Scholarship 2025</strong>.</li>
+          <li><span class="news-date">2025/06</span> Awarded the <span class="news-hl">SenseTime Scholarship 2025</span> (30 undergraduates nationwide).</li>
+          <li><span class="news-date">2025/06</span> One paper accepted to <a href="https://ieeexplore.ieee.org/abstract/document/11036164" target="_blank" rel="noopener">IEEE Transactions on Industrial Informatics</a> (SCI Q1).</li>
+          <li><span class="news-date">2025/03</span> Released <a href="https://arxiv.org/abs/2501.13926" target="_blank" rel="noopener"><strong>CoT-Image</strong></a>, the first work introducing chain-of-thought-style strategies into image generation (<span data-stars="ZiyuGuo99/Image-Generation-CoT"><i class="fas fa-star" style="color:#d9a300"></i> <span class="stat-value">800+</span> GitHub stars</span>).</li>
+          <li><span class="news-date">2024/12</span> One paper accepted to <strong>AAAI 2025</strong> and selected for <span class="news-hl">Oral Presentation</span>.</li>
+          <li><span class="news-date">2024/10</span> Awarded the <strong>National Scholarship 2024</strong> and the Gratitude Scholarship for Modern Scientists.</li>
+          <li><span class="news-date">2024/09</span> One paper accepted to <a href="https://ieeexplore.ieee.org/abstract/document/10679087/" target="_blank" rel="noopener">IEEE Transactions on Sustainable Energy</a> (SCI Q1).</li>
+          <li><span class="news-date">2023/12</span> Started my academic journey.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ Experience ============ -->
+    <section>
+      <h2 id="experience" class="section-title">Experience</h2>
+      <ul class="item-list">
+        <li class="item-row with-logo">
+          <div class="item-logo">
+            <img src="images/logos/hunyuan-render.png" alt="Tencent Hunyuan logo">
+          </div>
+          <div class="item-detail">
+            <strong><a href="https://hunyuan.tencent.com/" target="_blank" rel="noopener">Tencent Hunyuan</a> <span class="program-tag">Qingyun Program</span></strong>
+            <span class="line">Research Intern with <a href="https://p2333.github.io/" target="_blank" rel="noopener">Tianyu Pang</a> &mdash; Multimodal Reinforcement Learning.</span>
+          </div>
+          <div class="item-date">Mar 2026 &ndash; Present</div>
+        </li>
+        <li class="item-row with-logo">
+          <div class="item-logo">
+            <img src="images/logos/shlab-render.png" alt="Shanghai AI Laboratory logo">
+          </div>
+          <div class="item-detail">
+            <strong><a href="https://www.shlab.org.cn/" target="_blank" rel="noopener">Shanghai AI Laboratory</a></strong>
+            <span class="line">Research Intern with <a href="https://cgq15.github.io/" target="_blank" rel="noopener">Ganqu Cui</a> and <a href="https://www.stingning.cn/" target="_blank" rel="noopener">Ning Ding</a> &mdash; LLM SFT and Reinforcement Learning.</span>
+          </div>
+          <div class="item-date">Aug 2025 &ndash; Feb 2026</div>
+        </li>
+      </ul>
+    </section>
+
+    <!-- ============ Selected Publications ============ -->
+    <section>
+      <h2 id="publications" class="section-title">Selected Publications</h2>
+      <p class="pub-caption">(* equal contribution &nbsp;&middot;&nbsp; † corresponding author &nbsp;&middot;&nbsp; ‡ project leader) &nbsp;&nbsp; <a href="https://scholar.google.com/citations?user=Bdam5iQAAAAJ" target="_blank" rel="noopener">Full list on Google Scholar</a></p>
+
+      <div class="publication">
+        <img src="images/D2C.png" class="publogo" alt="D²C teaser" onerror="this.src='https://placehold.co/360x240/f0f2f5/888?text=D2C'">
+        <div class="pub-content">
+          <a class="pub-title" href="https://arxiv.org/abs/2507.05914" target="_blank" rel="noopener">Diffusion Dataset Condensation: Training Your Diffusion Model Faster with Less Data</a>
+          <div class="pub-venue">CVPR 2026</div>
+          <div class="pub-authors"><b>Rui Huang*</b>, Shitong Shao*, Zikai Zhou, Pukun Zhao, Hangyu Guo, Tian Ye, Lichen Bai, Shuo Yang, Zeke Xie&dagger;</div>
+          <div class="pub-links">
+            <a href="https://arxiv.org/abs/2507.05914" target="_blank" rel="noopener"><i class="far fa-file-pdf"></i> Paper</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="publication">
+        <img src="images/L2P.png" class="publogo" alt="L²P teaser" onerror="this.src='https://placehold.co/360x240/f0f2f5/888?text=L2P'">
+        <div class="pub-content">
+          <span class="pub-title">Beyond Fixed Formulas: Data-Driven Linear Predictor for Efficient Diffusion Models</span>
+          <div class="pub-venue">CVPR 2026</div>
+          <div class="pub-authors">Zhirong Shen*, <b>Rui Huang*‡</b>, Jiacheng Liu, Chang Zou, Peiliang Cai, Shikang Zheng, Zhengyi Shi, Liang Feng, Linfeng Zhang&dagger;</div>
+        </div>
+      </div>
+
+      <div class="publication">
+        <img src="images/WFANet.png" class="publogo" alt="WFANet teaser" onerror="this.src='https://placehold.co/360x240/f0f2f5/888?text=WFANet'">
+        <div class="pub-content">
+          <a class="pub-title" href="https://arxiv.org/pdf/2502.04903" target="_blank" rel="noopener">Wavelet-Assisted Multi-Frequency Attention Network for Pansharpening</a>
+          <div class="pub-venue">AAAI 2025 <span class="venue-award">Oral</span></div>
+          <div class="pub-authors">Jie Huang*, <b>Rui Huang*</b>, Jinghao Xu, Siran Peng, Yule Duan, Liangjian Deng&dagger;</div>
+          <div class="pub-links">
+            <a href="https://arxiv.org/pdf/2502.04903" target="_blank" rel="noopener"><i class="far fa-file-pdf"></i> Paper</a>
+            <a href="https://github.com/Jie-1203/WFANet" target="_blank" rel="noopener"><i class="fab fa-github"></i> Code</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="publication">
+        <img src="images/CoTImage.png" class="publogo" alt="CoT-Image teaser" onerror="this.src='https://placehold.co/360x240/f0f2f5/888?text=CoT-Image'">
+        <div class="pub-content">
+          <a class="pub-title" href="https://arxiv.org/pdf/2501.13926" target="_blank" rel="noopener">Can We Generate Images with CoT? Let's Verify and Reinforce Image Generation Step by Step</a>
+          <div class="pub-venue venue-preprint">arXiv 2025</div>
+          <div class="pub-authors">Ziyu Guo*, Renrui Zhang*&Dagger;&dagger;, Chengzhuo Tong*, Zhizheng Zhao*, <b>Rui Huang</b>, Haoquan Zhang, Manyuan Zhang, Jiaming Liu, Shanghang Zhang, Peng Gao, Hongsheng Li&dagger;, Pheng-Ann Heng</div>
+          <div class="pub-links">
+            <a href="https://arxiv.org/pdf/2501.13926" target="_blank" rel="noopener"><i class="far fa-file-pdf"></i> Paper</a>
+            <a href="https://github.com/ZiyuGuo99/Image-Generation-CoT" target="_blank" rel="noopener"><i class="fab fa-github"></i> Code</a>
+            <span class="pub-stat" data-stars="ZiyuGuo99/Image-Generation-CoT" title="GitHub stars"><i class="fas fa-star"></i><span class="stat-value">890+</span></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="publication">
+        <img src="images/P1.png" class="publogo" alt="P1 teaser" onerror="this.src='https://placehold.co/360x240/f0f2f5/888?text=P1'">
+        <div class="pub-content">
+          <a class="pub-title" href="https://arxiv.org/pdf/2511.13612" target="_blank" rel="noopener">P1: Mastering Physics Olympiads with Reinforcement Learning</a>
+          <div class="pub-venue venue-preprint">Tech Report</div>
+          <div class="pub-authors">Jiacheng Chen*, Qianjia Cheng*, Fangchen Yu* &hellip; <b>Rui Huang</b> &hellip; Lei Bai&dagger;, Yu Cheng&dagger;, Ning Ding&dagger;, Bowen Zhou&dagger;, Peng Ye&dagger;, Ganqu Cui&dagger;</div>
+          <div class="pub-links">
+            <a href="https://arxiv.org/pdf/2511.13612" target="_blank" rel="noopener"><i class="far fa-file-pdf"></i> Paper</a>
+            <a href="https://prime-rl.github.io/P1/" target="_blank" rel="noopener"><i class="fas fa-globe"></i> Project</a>
+            <a href="https://mp.weixin.qq.com/s/VS6cI7EhZRQwZRqMeqTgSg" target="_blank" rel="noopener"><i class="fas fa-newspaper"></i> 量子位</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="publication">
+        <img src="images/P1-VL.png" class="publogo" alt="P1-VL teaser" onerror="this.src='https://placehold.co/360x240/f0f2f5/888?text=P1-VL'">
+        <div class="pub-content">
+          <a class="pub-title" href="https://arxiv.org/pdf/2602.09443" target="_blank" rel="noopener">P1-VL: Bridging Visual Perception and Scientific Reasoning in Physics Olympiads</a>
+          <div class="pub-venue venue-preprint">Tech Report</div>
+          <div class="pub-authors">Yun Luo*&dagger;, Futing Wang*, Qianjia Cheng* &hellip; <b>Rui Huang</b> &hellip; Lei Bai, Yu Cheng, Ning Ding, Bowen Zhou, Peng Ye, Ganqu Cui&dagger;</div>
+          <div class="pub-links">
+            <a href="https://arxiv.org/pdf/2602.09443" target="_blank" rel="noopener"><i class="far fa-file-pdf"></i> Paper</a>
+            <a href="https://prime-rl.github.io/P1-VL/" target="_blank" rel="noopener"><i class="fas fa-globe"></i> Project</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="publication">
+        <img src="images/UniVA.png" class="publogo" alt="UniVA teaser" onerror="this.src='https://placehold.co/360x240/f0f2f5/888?text=UniVA'">
+        <div class="pub-content">
+          <a class="pub-title" href="https://arxiv.org/abs/2511.08521" target="_blank" rel="noopener">UniVA: Universal Video Agents towards Next-Generation Video Intelligence</a>
+          <div class="pub-venue venue-preprint">arXiv 2025</div>
+          <div class="pub-authors">Zhengyang Liang*, Daoan Zhang*, Huichi Zhou, <b>Rui Huang</b>, Bobo Li, Shengqiong Wu, Yuechen Zhang, Xiaohan Wang, Jiebo Luo, Lizi Liao, Hao Fei&dagger;</div>
+          <div class="pub-links">
+            <a href="https://arxiv.org/abs/2511.08521" target="_blank" rel="noopener"><i class="far fa-file-pdf"></i> Paper</a>
+            <a href="https://univa.online/" target="_blank" rel="noopener"><i class="fas fa-globe"></i> Project</a>
+            <a href="https://mp.weixin.qq.com/s/66I_b5QkvQoz_OMlKzWFCg" target="_blank" rel="noopener"><i class="fas fa-newspaper"></i> 新智元</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="publication">
+        <img src="images/COLNet.png" class="publogo" alt="COLNet teaser" onerror="this.src='https://placehold.co/360x240/f0f2f5/888?text=COLNet'">
+        <div class="pub-content">
+          <a class="pub-title" href="https://ieeexplore.ieee.org/abstract/document/11311384/" target="_blank" rel="noopener">Complementary Online Learning Network for Probabilistic Load Forecasting Against Extreme Weather</a>
+          <div class="pub-venue">IEEE Transactions on Industrial Informatics <span class="venue-tag tier">SCI Q1 &middot; IF 10.2</span></div>
+          <div class="pub-authors"><b>Rui Huang</b>, Pengfei Zhao, Di Cao&dagger;, Weihao Hu, Qi Huang, Zhe Chen</div>
+          <div class="pub-links">
+            <a href="https://ieeexplore.ieee.org/abstract/document/11311384/" target="_blank" rel="noopener"><i class="far fa-file-pdf"></i> Paper</a>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- ============ Education ============ -->
+    <section>
+      <h2 id="education" class="section-title">Education</h2>
+      <ul class="item-list">
+        <li class="item-row">
+          <div class="item-detail">
+            <strong>University of Electronic Science and Technology of China (UESTC)</strong>
+            <span class="line">B.Eng. in Computer Science &middot; <a href="https://www.peopleapp.com/rmharticle/30022294217" target="_blank" rel="noopener">Everest Project</a> Computer Top-Talent Experimental Class</span>
+            <span class="muted">GPA 3.99/4.0 &middot; weighted average 95.55/100 &middot; ranked 1/164 in major</span>
+          </div>
+          <div class="item-date">Sep 2023 &ndash; Jun 2027 (expected)</div>
+        </li>
+      </ul>
+    </section>
+
+    <!-- ============ Honors ============ -->
+    <section>
+      <h2 id="honors" class="section-title">Selected Honors &amp; Awards</h2>
+      <ul class="item-list compact">
+        <li class="item-row featured">
+          <div class="item-detail">
+            <strong>SenseTime Scholarship</strong>
+            <span class="muted">30 undergraduates nationwide</span>
+          </div>
+          <div class="item-date">2025</div>
+        </li>
+        <li class="item-row">
+          <div class="item-detail">
+            <strong>National Scholarship</strong>
+            <span class="muted">Top recipient in the college</span>
+          </div>
+          <div class="item-date">2025</div>
+        </li>
+        <li class="item-row">
+          <div class="item-detail">
+            <strong>National Scholarship</strong>
+            <span class="muted">Top recipient in the college</span>
+          </div>
+          <div class="item-date">2024</div>
+        </li>
+        <li class="item-row">
+          <div class="item-detail">
+            <strong>Gratitude Scholarship for Modern Scientists</strong>
+            <span class="muted">Top 10 school-wide</span>
+          </div>
+          <div class="item-date">2024</div>
+        </li>
+      </ul>
+    </section>
+
+    <!-- ============ Competitions (collapsible) ============ -->
+    <section class="section-collapsible">
+      <details>
+        <summary>
+          <h2 id="competitions" class="section-title">Competition Awards <i class="fas fa-chevron-right toggle" aria-hidden="true"></i></h2>
+        </summary>
+        <ul class="item-list compact">
+          <li class="item-row">
+            <div class="item-detail">
+              <strong>National Gold Award</strong>
+              <span class="muted">National College Student Career Planning Competition &middot; award rate &lt; 0.1% &middot; first from UESTC</span>
+            </div>
+            <div class="item-date">2025</div>
+          </li>
+          <li class="item-row">
+            <div class="item-detail">
+              <strong>National Silver Award</strong>
+              <span class="muted">China International College Students' Innovation Competition</span>
+            </div>
+            <div class="item-date">2025</div>
+          </li>
+          <li class="item-row">
+            <div class="item-detail">
+              <strong>Provincial Special Prize</strong>
+              <span class="muted">"Challenge Cup" National College Students' Extracurricular Academic and Technological Works Competition</span>
+            </div>
+            <div class="item-date">2025</div>
+          </li>
+        </ul>
+      </details>
+    </section>
+
+    <!-- ============ Talks & Reports (hidden for now) ============ -->
+    <!--
+    <section>
+      <h2 id="talks" class="section-title">Talks &amp; Reports</h2>
+      <ul class="item-list">
+        <li class="item-row">
+          <div class="item-detail">
+            <strong><a href="https://mp.weixin.qq.com/s?__biz=MzIwNTcyNzYwMA==&amp;mid=2247517938&amp;idx=1&amp;sn=66103a3998e7b3755f32af5f3be6f75b" target="_blank" rel="noopener">2025 商汤奖学金公布！30 位"AI 新星"亮相</a></strong>
+            <span class="muted">Interview by SenseTime</span>
+          </div>
+          <div class="item-date">Jul 2025</div>
+        </li>
+        <li class="item-row">
+          <div class="item-detail">
+            <strong><a href="files/cv/5845817.pdf" target="_blank" rel="noopener">黄锐：打造令人认可的中国 AI 产品</a></strong>
+            <span class="muted">Interview by Education Herald</span>
+          </div>
+          <div class="item-date">Jul 2025</div>
+        </li>
+        <li class="item-row">
+          <div class="item-detail">
+            <strong><a href="https://mp.weixin.qq.com/s/eoLKKNKcTUJcSMPlTtW2sA" target="_blank" rel="noopener">全国金奖 +2！</a></strong>
+            <span class="muted">Report by UESTC Official Account</span>
+          </div>
+          <div class="item-date">Apr 2025</div>
+        </li>
+        <li class="item-row">
+          <div class="item-detail">
+            <strong><a href="https://mp.weixin.qq.com/s/OVhtz43FR5bH8AVfJMk1zg" target="_blank" rel="noopener">理想·担当 国奖风采：黄锐</a></strong>
+            <span class="muted">Report by UESTC Student Financial Aid</span>
+          </div>
+          <div class="item-date">Apr 2025</div>
+        </li>
+      </ul>
+    </section>
+    -->
+
+
+    <!-- ============ Services ============ -->
+    <section>
+      <h2 id="services" class="section-title">Services</h2>
+      <ul class="item-list compact">
+        <li class="item-row">
+          <div class="item-detail">
+            <strong>Reviewer</strong>
+            <span class="muted">AAAI 2026, IEEE TCSVT</span>
+          </div>
+          <div class="item-date"></div>
+        </li>
+        <li class="item-row">
+          <div class="item-detail">
+            <strong>Co-Founder</strong>
+            <span class="muted">UESTC AI Club</span>
+          </div>
+          <div class="item-date"></div>
+        </li>
+      </ul>
+    </section>
+
+    <footer class="site-footer">
+      <p>&copy; <span id="year"></span> Rui Huang &middot; Built with <a href="https://github.com/XY-Showing/pageclaw" target="_blank" rel="noopener">PageClaw</a>.</p>
+    </footer>
+
+  </div>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Auto-fetch live GitHub stars (no auth required, ~60 req/hour per IP — fine)
+    (function fetchStars() {
+      var formatNum = function (n) {
+        if (n >= 1000) return (n / 1000).toFixed(n >= 10000 ? 0 : 1).replace(/\.0$/, '') + 'k';
+        return String(n);
+      };
+      document.querySelectorAll('[data-stars]').forEach(function (el) {
+        var repo = el.getAttribute('data-stars');
+        fetch('https://api.github.com/repos/' + repo, { headers: { 'Accept': 'application/vnd.github+json' } })
+          .then(function (r) { return r.ok ? r.json() : null; })
+          .then(function (data) {
+            if (data && typeof data.stargazers_count === 'number') {
+              el.querySelector('.stat-value').textContent = formatNum(data.stargazers_count);
+            }
+          })
+          .catch(function () {});
+      });
+    })();
+
+  </script>
+
+</body>
+</html>
