@@ -1,0 +1,59 @@
+name: Update GitHub Stars Cache
+
+# Fetches star counts for the repos listed below and publishes them as
+# stars.json on the `gh-stars-cache` branch. The page reads that file via
+# jsDelivr (highly cached, no GitHub API rate limit on the client side).
+#
+# Add a new repo: append it to the REPOS array in the "Build stars.json" step.
+
+on:
+  schedule:
+    - cron: '13 * * * *'   # hourly at :13
+  workflow_dispatch:        # allow manual trigger
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Build stars.json
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          REPOS=(
+            "ZiyuGuo99/Image-Generation-CoT"
+            "evolvent-ai/ClawMark"
+          )
+          mkdir -p out
+          echo '{' > out/stars.json
+          first=1
+          for repo in "${REPOS[@]}"; do
+            count=$(curl -fsS \
+              -H "Authorization: Bearer $GH_TOKEN" \
+              -H "Accept: application/vnd.github+json" \
+              "https://api.github.com/repos/$repo" \
+              | jq '.stargazers_count')
+            if [ "$first" -eq 0 ]; then echo ',' >> out/stars.json; fi
+            printf '  "%s": %s' "$repo" "$count" >> out/stars.json
+            first=0
+            echo "  $repo => $count"
+          done
+          echo '' >> out/stars.json
+          echo '}' >> out/stars.json
+          cat out/stars.json
+
+      - name: Publish to gh-stars-cache branch
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          cd out
+          git init -q -b gh-stars-cache
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add stars.json
+          git commit -q -m "Update stars cache ($(date -u +%FT%TZ))"
+          git push -qf "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" gh-stars-cache
