@@ -26,7 +26,6 @@ jobs:
           REPOS=(
             "ZiyuGuo99/Image-Generation-CoT"
             "evolvent-ai/ClawMark"
-            "RuiHuangAI/COLNet-IEEE-TII"
           )
           mkdir -p out
           echo '{' > out/stars.json
