@@ -1149,7 +1149,7 @@
         if (n >= 1000) return (n / 1000).toFixed(1).replace(/\.0$/, '') + 'k';
         return String(n);
       };
-      fetch('https://cdn.jsdelivr.net/gh/RuiHuangAI/RuiHuangAI.github.io@gh-stars-cache/stars.json')
+      fetch('https://cdn.jsdelivr.net/gh/RuiHuangAI/RuiHuangAI.github.io@gh-stars-cache/stars.json', { cache: 'no-store' })
         .then(function (r) { return r.ok ? r.json() : null; })
         .then(function (data) {
           if (!data) return;

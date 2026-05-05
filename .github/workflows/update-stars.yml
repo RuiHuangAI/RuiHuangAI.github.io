@@ -57,3 +57,10 @@ jobs:
           git add stars.json
           git commit -q -m "Update stars cache ($(date -u +%FT%TZ))"
           git push -qf "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" gh-stars-cache
+
+      - name: Purge jsDelivr CDN cache
+        # jsDelivr caches branch-resolved files for ~12h by default. Force a purge
+        # so the homepage sees the new stars.json on the next request.
+        run: |
+          curl -fsS "https://purge.jsdelivr.net/gh/${GITHUB_REPOSITORY}@gh-stars-cache/stars.json" || \
+            echo "Purge failed (non-fatal)"
