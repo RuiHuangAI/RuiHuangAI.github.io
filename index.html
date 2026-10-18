@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Rui Huang | UESTC</title>
-  <meta name="description" content="Rui Huang — undergraduate researcher at UESTC, currently at Tencent Hunyuan. Research on multimodal models, diffusion, LLM reasoning.">
+  <meta name="description" content="Rui Huang — undergraduate researcher at UESTC. Research on multimodal models, diffusion, LLM reasoning.">
 
   <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
@@ -506,6 +506,14 @@
       background: #ffffff;
     }
 
+    /* Talks & Reports: wide media logos (mastheads) */
+    .talks-list .item-logo {
+      width: 168px;
+      height: 72px;
+      padding: 8px 14px;
+    }
+    .talks-list .item-detail strong { font-size: 1.08rem; }
+
     /* Highlighted program/affiliation tag (e.g., Qingyun Program) */
     .program-tag {
       display: inline-block;
@@ -799,7 +807,7 @@
     <!-- ============ Biography ============ -->
     <section>
       <h2 id="biography" class="section-title">Biography</h2>
-      <p>I am a third-year undergraduate student in the <a href="https://www.uestc.edu.cn/" target="_blank" rel="noopener">Everest Project</a> Computer Top-Talent Experimental Class at <strong>UESTC</strong> (2023&ndash;2027), majoring in Computer Science (ranked 1/164 in major). I am currently a research intern at <strong>Tencent Hunyuan</strong>, working with <a href="https://p2333.github.io/" target="_blank" rel="noopener">Tianyu Pang</a> on Multimodal Reinforcement Learning. My research interests are <strong>Multimodal RL</strong>, <strong>Agentic AI</strong>, and <strong>World Models</strong>. Earlier, I also worked on AI for smart grids and remote-sensing image fusion.</p>
+      <p>I am a fourth-year undergraduate student in the <a href="https://www.uestc.edu.cn/" target="_blank" rel="noopener">Everest Project</a> Computer Top-Talent Experimental Class at <strong>UESTC</strong> (2023&ndash;2027), majoring in Computer Science (ranked 1/164 in major). I was previously a research intern at <strong>Tencent Hunyuan</strong> and <strong>Shanghai AI Lab</strong>. My research interests are <strong>Agentic AI</strong>, <strong>Multimodal Models</strong>, and <strong>World Models</strong>.</p>
 
       <p>👋 If you're interested in my research or just want to chat, feel free to reach out by <a href="mailto:huang_rui@std.uestc.edu.cn">email</a> or <button type="button" class="wechat-btn" onclick="document.getElementById('wechat-modal').showModal()">WeChat</button>.</p>
     </section>
@@ -809,6 +817,8 @@
       <h2 id="news" class="section-title">News</h2>
       <div class="news-scroll" tabindex="0" aria-label="News, scrollable list">
         <ul class="news-list">
+          <li><span class="news-date">2026/10</span> Released <a href="https://arxiv.org/abs/2610.16397" target="_blank" rel="noopener"><strong>RES</strong></a> &mdash; recursive environment scaling for general long-horizon agents. Reported by <a href="https://mp.weixin.qq.com/s/qa3uIwHu4qzf9xLHf67kmw" target="_blank" rel="noopener">机智流</a>.</li>
+          <li><span class="news-date">2026/10</span> Released <a href="https://arxiv.org/abs/2610.16297" target="_blank" rel="noopener"><strong>SLDBench v2</strong></a> &mdash; a benchmark for active scaling law discovery by LLM agents.</li>
           <li><span class="news-date">2026/06</span> One paper accepted to <strong>ECCV 2026</strong>.</li>
           <li><span class="news-date">2026/04</span> Released <a href="https://claw-mark.com/" target="_blank" rel="noopener"><strong>ClawMark</strong></a> &mdash; a living-world benchmark for multi-day, multimodal coworker agents.</li>
           <li><span class="news-date">2026/02</span> Two papers <a href="https://arxiv.org/abs/2507.05914" target="_blank" rel="noopener"><strong>D&sup2;C</strong></a> and <a href="https://arxiv.org/pdf/2604.26365" target="_blank" rel="noopener"><strong>L&sup2;P</strong></a> accepted to <strong>CVPR 2026</strong>.</li>
@@ -839,7 +849,7 @@
             <strong><a href="https://hunyuan.tencent.com/" target="_blank" rel="noopener">Tencent Hunyuan</a> <span class="program-tag">Qingyun Program</span></strong>
             <span class="line">Research Intern with <a href="https://p2333.github.io/" target="_blank" rel="noopener">Tianyu Pang</a> &mdash; Multimodal Reinforcement Learning.</span>
           </div>
-          <div class="item-date">Mar 2026 &ndash; Present</div>
+          <div class="item-date">Mar 2026 &ndash; Oct 2026</div>
         </li>
         <li class="item-row with-logo">
           <div class="item-logo">
@@ -858,6 +868,33 @@
     <section>
       <h2 id="publications" class="section-title">Selected Publications</h2>
       <p class="pub-caption">(* equal contribution &nbsp;&middot;&nbsp; † corresponding author &nbsp;&middot;&nbsp; ‡ project leader) &nbsp;&nbsp; <a href="https://scholar.google.com/citations?user=Bdam5iQAAAAJ" target="_blank" rel="noopener">Full list on Google Scholar</a></p>
+
+      <div class="publication">
+        <img src="images/RES.png" class="publogo" alt="RES teaser" onerror="this.src='https://placehold.co/360x240/f0f2f5/888?text=RES'">
+        <div class="pub-content">
+          <a class="pub-title" href="https://arxiv.org/abs/2610.16397" target="_blank" rel="noopener">Recursive Environment Scaling for General Long-Horizon Agents</a>
+          <div class="pub-venue venue-preprint">arXiv 2026</div>
+          <div class="pub-authors">Lingxiao Jing*, Zhengbo Jiao*, Yichen Xiang, Bofan Zhu, Lingbei Meng, Yan Ni, Haorui Chen, Ran Ran, Zhirong Shen, Yuheng Yang, Chenhang Cui, Yaosong Du, <b>Rui Huang&dagger;</b></div>
+          <div class="pub-links">
+            <a href="https://arxiv.org/pdf/2610.16397" target="_blank" rel="noopener"><i class="far fa-file-pdf"></i> PDF</a>
+            <a href="https://mp.weixin.qq.com/s/qa3uIwHu4qzf9xLHf67kmw" target="_blank" rel="noopener"><i class="fas fa-newspaper"></i> 机智流</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="publication">
+        <img src="images/SLDBench.png" class="publogo" alt="SLDBench v2 teaser" onerror="this.src='https://placehold.co/360x240/f0f2f5/888?text=SLDBench+v2'">
+        <div class="pub-content">
+          <a class="pub-title" href="https://arxiv.org/abs/2610.16297" target="_blank" rel="noopener">SLDBench v2: Active Scaling Law Discovery</a>
+          <div class="pub-venue venue-preprint">arXiv 2026</div>
+          <div class="pub-authors">Lingbei Meng*, <b>Rui Huang*</b>, Zhirong Shen, Jinxin Liu, Lingxiao Jing, Haorui Chen, Yaosong Du, Haowei Lin&dagger;</div>
+          <div class="pub-links">
+            <a href="https://arxiv.org/pdf/2610.16297" target="_blank" rel="noopener"><i class="far fa-file-pdf"></i> PDF</a>
+            <a href="https://github.com/lingbei-meng/SLDBench-v2" target="_blank" rel="noopener"><i class="fab fa-github"></i> Code</a>
+            <a href="https://lingbei-meng.github.io/SLDBench-v2/" target="_blank" rel="noopener"><i class="fas fa-globe"></i> Homepage</a>
+          </div>
+        </div>
+      </div>
 
       <div class="publication">
         <img src="images/D2C.png" class="publogo" alt="D²C teaser" onerror="this.src='https://placehold.co/360x240/f0f2f5/888?text=D2C'">
@@ -994,7 +1031,7 @@
           <div class="item-detail">
             <strong>University of Electronic Science and Technology of China (UESTC)</strong>
             <span class="line">B.Eng. in Computer Science &middot; <a href="https://www.peopleapp.com/rmharticle/30022294217" target="_blank" rel="noopener">Everest Project</a> Computer Top-Talent Experimental Class</span>
-            <span class="muted">GPA 3.99/4.0 &middot; weighted average 95.55/100 &middot; ranked 1/164 in major</span>
+            <span class="muted">GPA 3.99/4.0 &middot; weighted average 96/100 &middot; ranked 1/164 in major</span>
           </div>
           <div class="item-date">Sep 2023 &ndash; Jun 2027 (expected)</div>
         </li>
@@ -1036,7 +1073,8 @@
       </ul>
     </section>
 
-    <!-- ============ Competitions (collapsible) ============ -->
+    <!-- ============ Competitions (collapsible, hidden for now) ============ -->
+    <!--
     <section class="section-collapsible">
       <details>
         <summary>
@@ -1052,13 +1090,6 @@
           </li>
           <li class="item-row">
             <div class="item-detail">
-              <strong>National Silver Award</strong>
-              <span class="muted">China International College Students' Innovation Competition</span>
-            </div>
-            <div class="item-date">2025</div>
-          </li>
-          <li class="item-row">
-            <div class="item-detail">
               <strong>Provincial Special Prize</strong>
               <span class="muted">"Challenge Cup" National College Students' Extracurricular Academic and Technological Works Competition</span>
             </div>
@@ -1067,44 +1098,49 @@
         </ul>
       </details>
     </section>
+    -->
 
-    <!-- ============ Talks & Reports (hidden for now) ============ -->
-    <!--
+    <!-- ============ Talks & Reports ============ -->
     <section>
       <h2 id="talks" class="section-title">Talks &amp; Reports</h2>
-      <ul class="item-list">
-        <li class="item-row">
+      <ul class="item-list talks-list">
+        <li class="item-row with-logo">
+          <div class="item-detail">
+            <strong><a href="http://paper.people.com.cn/rmrb/pc/content/202505/01/content_30070908.html" target="_blank" rel="noopener">以科技创新引领新质生产力发展</a></strong>
+            <span class="muted">Quoted in People's Daily (人民日报), Page 2 &middot; May 2025</span>
+          </div>
+          <div class="item-logo"><img src="images/logos/peoples-daily.png" alt="People's Daily logo"></div>
+        </li>
+        <li class="item-row with-logo">
           <div class="item-detail">
             <strong><a href="https://mp.weixin.qq.com/s?__biz=MzIwNTcyNzYwMA==&amp;mid=2247517938&amp;idx=1&amp;sn=66103a3998e7b3755f32af5f3be6f75b" target="_blank" rel="noopener">2025 商汤奖学金公布！30 位"AI 新星"亮相</a></strong>
-            <span class="muted">Interview by SenseTime</span>
+            <span class="muted">Interview by SenseTime &middot; Jul 2025</span>
           </div>
-          <div class="item-date">Jul 2025</div>
+          <div class="item-logo"><img src="images/logos/sensetime.png" alt="SenseTime logo"></div>
         </li>
-        <li class="item-row">
+        <li class="item-row with-logo">
           <div class="item-detail">
             <strong><a href="files/cv/5845817.pdf" target="_blank" rel="noopener">黄锐：打造令人认可的中国 AI 产品</a></strong>
-            <span class="muted">Interview by Education Herald</span>
+            <span class="muted">Interview by Education Herald &middot; Jul 2025</span>
           </div>
-          <div class="item-date">Jul 2025</div>
+          <div class="item-logo"><img src="images/logos/education-herald.png" alt="Education Herald logo"></div>
         </li>
-        <li class="item-row">
+        <li class="item-row with-logo">
           <div class="item-detail">
             <strong><a href="https://mp.weixin.qq.com/s/eoLKKNKcTUJcSMPlTtW2sA" target="_blank" rel="noopener">全国金奖 +2！</a></strong>
-            <span class="muted">Report by UESTC Official Account</span>
+            <span class="muted">Report by UESTC Official Account &middot; Apr 2025</span>
           </div>
-          <div class="item-date">Apr 2025</div>
+          <div class="item-logo"><img src="images/logos/uestc.png" alt="UESTC logo"></div>
         </li>
-        <li class="item-row">
+        <li class="item-row with-logo">
           <div class="item-detail">
             <strong><a href="https://mp.weixin.qq.com/s/OVhtz43FR5bH8AVfJMk1zg" target="_blank" rel="noopener">理想·担当 国奖风采：黄锐</a></strong>
-            <span class="muted">Report by UESTC Student Financial Aid</span>
+            <span class="muted">Report by UESTC Student Financial Aid &middot; Apr 2025</span>
           </div>
-          <div class="item-date">Apr 2025</div>
+          <div class="item-logo"><img src="images/logos/uestc.png" alt="UESTC logo"></div>
         </li>
       </ul>
     </section>
-    -->
-
 
     <!-- ============ Services ============ -->
     <section>
@@ -1113,7 +1149,7 @@
         <li class="item-row">
           <div class="item-detail">
             <strong>Reviewer</strong>
-            <span class="muted">AAAI 2026, IEEE TCSVT</span>
+            <span class="muted">ICLR 2027, AAAI 2026, AAAI 2027, IEEE TCSVT</span>
           </div>
           <div class="item-date"></div>
         </li>
