@@ -26,17 +26,18 @@ jobs:
           REPOS=(
             "ZiyuGuo99/Image-Generation-CoT"
             "evolvent-ai/ClawMark"
-            "univa-agent/univa"
+            "UniVA-Verse/univa"
           )
           mkdir -p out
           echo '{' > out/stars.json
           first=1
           for repo in "${REPOS[@]}"; do
-            count=$(curl -fsS \
+            count=$(curl -fsSL \
               -H "Authorization: Bearer $GH_TOKEN" \
               -H "Accept: application/vnd.github+json" \
               "https://api.github.com/repos/$repo" \
               | jq '.stargazers_count')
+            if [ -z "$count" ] || [ "$count" = "null" ]; then echo "  $repo => (skipped)"; continue; fi
             if [ "$first" -eq 0 ]; then echo ',' >> out/stars.json; fi
             printf '  "%s": %s' "$repo" "$count" >> out/stars.json
             first=0
