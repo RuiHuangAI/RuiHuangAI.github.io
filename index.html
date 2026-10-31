@@ -701,6 +701,34 @@
     .compact-pub:last-child { border-bottom: 1px dashed var(--border-dashed); }
     .compact-pub .pub-title { font-size: 1rem; }
 
+    /* AI Club learning resource */
+    .community-resource { margin-top: 30px; }
+    .community-resource h3 {
+      margin: 0 0 8px;
+      font-size: 1.1rem;
+    }
+    .community-resource p {
+      margin: 0 0 18px;
+      color: var(--text-muted);
+      font-size: 0.95rem;
+    }
+    .guide-preview {
+      display: block;
+      overflow: hidden;
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      background: #ffffff;
+    }
+    .guide-preview:focus-visible {
+      outline: 2px solid var(--primary);
+      outline-offset: 4px;
+    }
+    .guide-preview img {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+
     /* ===== Footer ===== */
     .site-footer {
       margin-top: 80px;
@@ -1165,11 +1193,18 @@
         <li class="item-row">
           <div class="item-detail">
             <strong>Co-Founder</strong>
-            <span class="muted">UESTC AI Club</span>
+            <span class="muted"><a href="https://uestcai.top/" target="_blank" rel="noopener">UESTC AI Club</a></span>
           </div>
           <div class="item-date"></div>
         </li>
       </ul>
+      <div class="community-resource" aria-labelledby="ai-research-guide">
+        <h3 id="ai-research-guide"><a href="https://wiki.uestcai.top/zh/" target="_blank" rel="noopener">AI Research Guide</a></h3>
+        <p>An open guide by the UESTC AI Club, from first AI projects to research practice.</p>
+        <a class="guide-preview" href="https://wiki.uestcai.top/zh/" target="_blank" rel="noopener">
+          <img src="images/ai-research-guide.png" width="3200" height="1808" loading="lazy" decoding="async" alt="AI Research Guide overview: starter projects, research directions, research practice, and community resources.">
+        </a>
+      </div>
     </section>
 
     <!-- WeChat QR modal (opened by .wechat-btn) -->
